@@ -1,0 +1,5566 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey"
+      ],
+      "responses": [
+        "Hello! How can I help you learn about the Indian Constitution today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask."
+      ]
+    },
+    {
+      "tag": "basic_info",
+      "patterns": [
+        "What is the Indian Constitution?",
+        "Tell me about the Indian Constitution"
+      ],
+      "responses": [
+        "The Indian Constitution is the supreme law of India. It lays down the framework that defines the political principles, establishes the structure, procedures, powers, and duties of government institutions, and sets out the fundamental rights, directive principles, and the duties of citizens. It was adopted on 26th January 1950."
+      ]
+    },
+    {
+      "tag": "fundamental_rights",
+      "patterns": [
+        "What are fundamental rights?",
+        "Tell me about fundamental rights"
+      ],
+      "responses": [
+        "Fundamental rights are a set of rights guaranteed by the Constitution of India. These rights are considered essential for the development of the individual and the nation. They include the right to equality, right to freedom, right against exploitation, right to freedom of religion, cultural and educational rights, and right to constitutional remedies."
+      ]
+    },
+    {
+      "tag": "articles",
+      "patterns": [
+        "Tell me about Article [number]",
+        "What does Article [number] of the Constitution say?"
+      ],
+      "responses": [
+        "Article [number] of the Indian Constitution deals with [brief explanation]."
+      ]
+    },
+    {
+      "tag": "amendments",
+      "patterns": [
+        "How is the Indian Constitution amended?",
+        "Tell me about amendments to the Indian Constitution"
+      ],
+      "responses": [
+        "The Indian Constitution can be amended through a process outlined in Article 368. An amendment bill must be passed by both houses of Parliament with a two-thirds majority. Some amendments also require ratification by a majority of state legislatures."
+      ]
+    },
+    {
+      "tag": "quiz",
+      "patterns": [
+        "Quiz me on the Indian Constitution",
+        "Can you ask me a question about the Indian Constitution?"
+      ],
+      "responses": [
+        "Sure! Here's a question: [question]. What's your answer?"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase your question?"
+      ]
+    },
+    {
+      "tag": "PARTS",
+      "patterns": [
+        "What are the parts of the Indian Constitution?",
+        "List the parts of the Indian Constitution."
+      ],
+      "responses": [
+        "The Indian Constitution is divided into the following parts: \n1. The Union and its Territory \n2. Citizenship \n3. Fundamental Rights \n4. Directive Principles of State Policy \n5. The Union \n6. The States \n7. The States in Part B of the First Schedule \n8. The Union Territories \n9. The Panchayats \n10. The Municipalities \n11. The Co-operative Societies \n12. The Scheduled and Tribal Areas \n13. Relations between the Union and the States \n14. Services under the Union and the States \n15. Elections \n16. Special Provisions Relating to Certain Classes \n17. Official Language \n18. Emergency Provisions \n19. Miscellaneous \n20. Amendment of the Constitution \n21. Temporary, Transitional, and Special Provisions \n22. Short Title, Commencement, Authoritative Text in Hindi, and Repeals"
+      ]
+    },
+    {
+      "tag": "PART_1",
+      "patterns": [
+        "What is covered in Part I of the Indian Constitution?",
+        "Explain Part I of the Indian Constitution.",
+        "Part 1 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part I of the Indian Constitution deals with the Union and its Territory. It includes provisions regarding the territory of India, admission or establishment of new states, formation of new states and alteration of areas, boundaries, or names of existing states."
+      ]
+    },
+    {
+      "tag": "PART_2",
+      "patterns": [
+        "What does Part II of the Indian Constitution cover?",
+        "Explain Part II of the Indian Constitution.",
+        "Part 2 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part II of the Indian Constitution deals with Citizenship. It includes provisions regarding who shall be a citizen of India at the commencement of the Constitution, the acquisition and termination of citizenship, and more."
+      ]
+    },
+    {
+      "tag": "PART_3",
+      "patterns": [
+        "What is included in Part III of the Indian Constitution?",
+        "Can you explain Part III of the Indian Constitution?",
+        "Part 3 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part III of the Indian Constitution deals with Fundamental Rights. It includes provisions regarding the fundamental rights of citizens, such as the right to equality, right to freedom, right against exploitation, right to freedom of religion, cultural and educational rights, and right to constitutional remedies."
+      ]
+    },
+    {
+      "tag": "PART_4",
+      "patterns": [
+        "What does Part IV of the Indian Constitution cover?",
+        "Explain Part IV of the Indian Constitution.",
+        "Part 4 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part IV of the Indian Constitution deals with Directive Principles of State Policy. It includes principles for the government to strive towards securing certain principles, such as securing a social order for the promotion of welfare of the people, securing just and humane conditions of work, and more."
+      ]
+    },
+    {
+      "tag": "PART_5",
+      "patterns": [
+        "Explain Part II of the Indian Constitution.",
+        "Can you explain Part V of the Indian Constitution?",
+        "Part 5 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part V of the Indian Constitution deals with the Union. It includes provisions regarding the executive, the President of India, Vice-President, Council of Ministers, and more."
+      ]
+    },
+    {
+      "tag": "PART_6",
+      "patterns": [
+        "What does Part VI of the Indian Constitution cover?",
+        "Explain Part VI of the Indian Constitution.",
+        "Part 6 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part VI of the Indian Constitution deals with the States. It is divided into several chapters, including chapters on the definition of the states, the executive (including the Governor and the Council of Ministers), the state legislature, legislative power of the Governor, the High Courts in the States, and subordinate courts."
+      ]
+    },
+    {
+      "tag": "PART_7",
+      "patterns": [
+        "What is covered in Part VII of the Indian Constitution?",
+        "Can you explain Part VII of the Indian Constitution?",
+        "Part 7 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part VII of the Indian Constitution deals with the States in Part B of the First Schedule. It includes provisions regarding the administration of these states and the provisions applicable to them."
+      ]
+    },
+    {
+      "tag": "PART_8",
+      "patterns": [
+        "What does Part VIII of the Indian Constitution cover?",
+        "Explain Part VIII of the Indian Constitution.",
+        "Part 8 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part VIII of the Indian Constitution deals with the Union Territories. It includes provisions regarding the administration of Union territories, creation of local legislatures or Council of Ministers, special provisions for Delhi, provision in case of failure of constitutional machinery, power of the administrator to promulgate ordinances, power of the President to make regulations, and more."
+      ]
+    },
+    {
+      "tag": "PART_9",
+      "patterns": [
+        "What is included in Part IX of the Indian Constitution?",
+        "Can you explain Part IX of the Indian Constitution?",
+        "Part 9 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part IX of the Indian Constitution deals with the Panchayats. It includes provisions regarding the definition of Panchayats, their constitution, composition, reservation of seats, duration, disqualifications, powers, authority, responsibilities, powers to impose taxes, constitution of Finance Commission, audit of accounts, elections, application to Union territories, and more."
+      ]
+    },
+    {
+      "tag": "PART_9A",
+      "patterns": [
+        "What does Part IXA of the Indian Constitution cover?",
+        "Explain Part IXA of the Indian Constitution.",
+        "Part 9A of the Indian Constitution."
+      ],
+      "responses": [
+        "Part IXA of the Indian Constitution deals with the Municipalities. It includes provisions regarding the definition of Municipalities, their constitution, composition, reservation of seats, duration, disqualifications, powers, authority, responsibilities, powers to impose taxes, constitution of Finance Commission, audit of accounts, elections, application to Union territories, and more."
+      ]
+    },
+    {
+      "tag": "PART_9B",
+      "patterns": [
+        "What is covered in Part IXB of the Indian Constitution?",
+        "Can you explain Part IXB of the Indian Constitution?",
+        "Part 9B of the Indian Constitution."
+      ],
+      "responses": [
+        "Part IXB of the Indian Constitution deals with the Co-operative Societies. It includes provisions regarding the definition of co-operative societies, their incorporation, number and term of members of the board and its office bearers, election of members of the board, supersession and suspension of the board and interim management, audit of accounts, convening of general body meetings, returns, offences and penalties, application to multi-state co-operative societies, application to Union Territories, and more."
+      ]
+    },
+    {
+      "tag": "PART_10",
+      "patterns": [
+        "What does Part X of the Indian Constitution cover?",
+        "Explain Part X of the Indian Constitution.",
+        "Part 10 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part X of the Indian Constitution deals with the Scheduled and Tribal Areas. It includes provisions regarding the administration of Scheduled Areas and Tribal Areas, formation of autonomous States, creation of local legislature or Council of Ministers, and more."
+      ]
+    },
+    {
+      "tag": "PART_11",
+      "patterns": [
+        "What is included in Part XI of the Indian Constitution?",
+        "Can you explain Part XI of the Indian Constitution?",
+        "Part 11 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XI of the Indian Constitution deals with the relations between the Union and the States. It includes provisions regarding the distribution of legislative powers, administrative relations, disputes relating to waters, coordination between states, and more."
+      ]
+    },
+    {
+      "tag": "PART_12",
+      "patterns": [
+        "What does Part XII of the Indian Constitution cover?",
+        "Explain Part XII of the Indian Constitution.",
+        "Part 12 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XII of the Indian Constitution deals with Finance, Property, Contracts, and Suits. It includes provisions regarding the distribution of revenues between the Union and the States, custody, payment into, and withdrawals from Consolidated Funds, Contingency Funds and Public Accounts, contracts, and more."
+      ]
+    },
+    {
+      "tag": "PART_13",
+      "patterns": [
+        "What is covered in Part XIII of the Indian Constitution?",
+        "Can you explain Part XIII of the Indian Constitution?",
+        "Part 13 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XIII of the Indian Constitution deals with trade, commerce, and intercourse within the territory of India. It includes provisions regarding freedom of trade, Parliament's power to impose restrictions on trade, restrictions on legislative powers of the Union and States, and more."
+      ]
+    },
+    {
+      "tag": "PART_14",
+      "patterns": [
+        "What does Part XIV of the Indian Constitution cover?",
+        "Explain Part XIV of the Indian Constitution.",
+        "Part 14 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XIV of the Indian Constitution deals with services under the Union and the States. It includes provisions regarding the services, appointment, and conditions of service of persons serving the Union or a State, and more."
+      ]
+    },
+    {
+      "tag": "PART_15",
+      "patterns": [
+        "What is included in Part XV of the Indian Constitution?",
+        "Can you explain Part XV of the Indian Constitution?",
+        "Part 15 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XV of the Indian Constitution deals with elections. It includes provisions regarding the superintendence, direction, and control of elections vested in an Election Commission, adult suffrage, and provisions for Parliament and State Legislatures to make provisions for elections."
+      ]
+    },
+    {
+      "tag": "PART_16",
+      "patterns": [
+        "What does Part XVI of the Indian Constitution cover?",
+        "Explain Part XVI of the Indian Constitution.",
+        "Part 16 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XVI of the Indian Constitution deals with special provisions relating to certain classes. It includes provisions regarding special provisions for the advancement of socially and educationally backward classes of citizens or for the Scheduled Castes and the Scheduled Tribes."
+      ]
+    },
+    {
+      "tag": "PART_17",
+      "patterns": [
+        "What is covered in Part XVII of the Indian Constitution?",
+        "Can you explain Part XVII of the Indian Constitution?",
+        "Part 17 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XVII of the Indian Constitution deals with Official Language. It includes provisions regarding the official language of the Union, regional languages, and the language of the Supreme Court, High Courts, and the Union and State Legislatures."
+      ]
+    },
+    {
+      "tag": "PART_18",
+      "patterns": [
+        "What does Part XVIII of the Indian Constitution cover?",
+        "Explain Part XVIII of the Indian Constitution.",
+        "Part 18 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XVIII of the Indian Constitution deals with emergency provisions. It includes provisions regarding the proclamation of emergency, effect of emergency proclamation, suspension of provisions during emergencies, and more."
+      ]
+    },
+    {
+      "tag": "PART_19",
+      "patterns": [
+        "What is included in Part XIX of the Indian Constitution?",
+        "Can you explain Part XIX of the Indian Constitution?",
+        "Part 19 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XIX of the Indian Constitution deals with miscellaneous matters. It includes provisions regarding the right of certain persons to practice in any profession, carrying on of trade or business, acquisition of citizenship, and more."
+      ]
+    },
+    {
+      "tag": "PART_20",
+      "patterns": [
+        "What does Part XX of the Indian Constitution cover?",
+        "Explain Part XX of the Indian Constitution.",
+        "Part 20 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XX of the Indian Constitution deals with amendment of the Constitution. It includes provisions regarding the amendment procedure, types of amendments, and more."
+      ]
+    },
+    {
+      "tag": "PART_21",
+      "patterns": [
+        "What is covered in Part XXI of the Indian Constitution?",
+        "Can you explain Part XXI of the Indian Constitution?",
+        "Part 21 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XXI of the Indian Constitution deals with temporary, transitional, and special provisions. It includes provisions regarding temporary power to Parliament to make laws, special provisions for certain states and classes, and more."
+      ]
+    },
+    {
+      "tag": "PART_22",
+      "patterns": [
+        "What does Part XXII of the Indian Constitution cover?",
+        "Explain Part XXII of the Indian Constitution.",
+        "Part 22 of the Indian Constitution."
+      ],
+      "responses": [
+        "Part XXII of the Indian Constitution deals with short title, commencement, authoritative text in Hindi, and repeals. It includes provisions regarding the short title of the Constitution, commencement, authoritative text in Hindi, and repeals."
+      ]
+    },
+    {
+      "tag": "PREAMBLE",
+      "patterns": [
+        "Preamble of the Indian Constitution.",
+        "What is the Preamble of the Indian Constitution?"
+      ],
+      "responses": [
+        "The Preamble of the Indian Constitution is an introductory statement that sets out the guiding principles of the Constitution, such as justice, liberty, equality, and fraternity."
+      ]
+    },
+    {
+      "tag": "PART_I_articles",
+      "patterns": [
+        "Articles under Part I of the Indian Constitution.",
+        "Part I of the Indian Constitution contain?"
+      ],
+      "responses": [
+        "Part I of the Indian Constitution contains provisions related to the Union and its territory.",
+        "Part I of the Indian Constitution deals with the Union and its territory. Would you like to know about a specific Article under Part I?"
+      ]
+    },
+    {
+      "tag": "Article_1",
+      "patterns": [
+        "Articles 1",
+        "Article-1"
+      ],
+      "responses": [
+        "Name and territory of the Union.",
+        "The first Article of the Indian Constitution deals with the name and territory of India."
+      ]
+    },
+    {
+      "tag": "Article_2",
+      "patterns": [
+        "Articles 2",
+        "Article-2"
+      ],
+      "responses": [
+        "Admission or establishment of new States.",
+        "Article 2 of the Indian Constitution deals with the admission or establishment of new States."
+      ]
+    },
+    {
+      "tag": "Article_3",
+      "patterns": [
+        "Articles 3",
+        "Article-3"
+      ],
+      "responses": [
+        "Formation of new States and alteration of areas, boundaries or names of existing States.",
+        "Article 3 of the Indian Constitution deals with the formation of new States and alteration of areas, boundaries, or names of existing States."
+      ]
+    },
+    {
+      "tag": "Article_4",
+      "patterns": [
+        "Articles 4",
+        "Article-4"
+      ],
+      "responses": [
+        "Laws made under Articles 2 and 3 to provide for the amendment of the First and the Fourth Schedules and supplemental, incidental and consequential matters.",
+        "Article 4 of the Indian Constitution deals with laws made under Articles 2 and 3 to provide for the amendment of the First and the Fourth Schedules and supplemental, incidental and consequential matters."
+      ]
+    },
+    {
+      "tag": "Article_5",
+      "patterns": [
+        "Articles 5",
+        "Article-5"
+      ],
+      "responses": [
+        "Laws to provide for the acquisition of Indian citizenship.",
+        "Article 5 of the Indian Constitution deals with laws to provide for the acquisition of Indian citizenship."
+      ]
+    },
+    {
+      "tag": "Article_6",
+      "patterns": [
+        "Articles 6",
+        "Article-6"
+      ],
+      "responses": [
+        "Rights of citizenship of certain persons who have migrated to India from Pakistan.",
+        "Article 6 of the Indian Constitution deals with the rights of citizenship of certain persons who have migrated to India from Pakistan."
+      ]
+    },
+    {
+      "tag": "Article_7",
+      "patterns": [
+        "Articles 7",
+        "Article-7"
+      ],
+      "responses": [
+        "Rights of citizenship of certain migrants to Pakistan.",
+        "Article 7 of the Indian Constitution deals with the rights of citizenship of certain migrants to Pakistan."
+      ]
+    },
+    {
+      "tag": "Article_8",
+      "patterns": [
+        "Articles 8",
+        "Article-8"
+      ],
+      "responses": [
+        "Rights of citizenship of certain persons of Indian origin residing outside India.",
+        "Article 8 of the Indian Constitution deals with the rights of citizenship of certain persons of Indian origin residing outside India."
+      ]
+    },
+    {
+      "tag": "Article_9",
+      "patterns": [
+        "Articles 9",
+        "Article-9"
+      ],
+      "responses": [
+        "Persons voluntarily acquiring citizenship of a foreign State not to be citizens.",
+        "Article 9 of the Indian Constitution deals with persons voluntarily acquiring citizenship of a foreign State not to be citizens."
+      ]
+    },
+    {
+      "tag": "Article_10",
+      "patterns": [
+        "Articles 10",
+        "Article-10"
+      ],
+      "responses": [
+        "Continuance of the rights of citizenship.",
+        "Article 10 of the Indian Constitution deals with the continuance of the rights of citizenship."
+      ]
+    },
+    {
+      "tag": "Article_11",
+      "patterns": [
+        "Articles 11",
+        "Article-11"
+      ],
+      "responses": [
+        "Parliament to regulate the right of citizenship by law.",
+        "Article 11 of the Indian Constitution deals with Parliament's power to regulate the right of citizenship by law."
+      ]
+    },
+    {
+      "tag": "PART_III_articles",
+      "patterns": [
+        "Articles under Part III of the Indian Constitution.",
+        "Part III of the Indian Constitution contain?"
+      ],
+      "responses": [
+        "Part III of the Indian Constitution contains provisions related to fundamental rights.",
+        "Part III of the Indian Constitution deals with fundamental rights. Would you like to know about a specific Article under Part III?"
+      ]
+    },
+    {
+      "tag": "Article_12",
+      "patterns": [
+        "Articles 12",
+        "Article-12"
+      ],
+      "responses": [
+        "Definition of 'State'.",
+        "Article 12 of the Indian Constitution defines the term 'State' as used in Part III."
+      ]
+    },
+    {
+      "tag": "Article_13",
+      "patterns": [
+        "Articles 13",
+        "Article-13"
+      ],
+      "responses": [
+        "Laws inconsistent with or in derogation of the fundamental rights.",
+        "Article 13 of the Indian Constitution deals with laws inconsistent with or in derogation of the fundamental rights."
+      ]
+    },
+    {
+      "tag": "Article_14",
+      "patterns": [
+        "Articles 14",
+        "Article-14"
+      ],
+      "responses": [
+        "Equality before law.",
+        "Article 14 of the Indian Constitution guarantees equality before the law."
+      ]
+    },
+    {
+      "tag": "Article_15",
+      "patterns": [
+        "Articles 15",
+        "Article-15"
+      ],
+      "responses": [
+        "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth.",
+        "Article 15 of the Indian Constitution prohibits discrimination on grounds of religion, race, caste, sex, or place of birth."
+      ]
+    },
+    {
+      "tag": "Article_16",
+      "patterns": [
+        "Articles 16",
+        "Article-16"
+      ],
+      "responses": [
+        "Equality of opportunity in matters of public employment.",
+        "Article 16 of the Indian Constitution ensures equality of opportunity in matters of public employment."
+      ]
+    },
+    {
+      "tag": "Article_17",
+      "patterns": [
+        "Articles 17",
+        "Article-17"
+      ],
+      "responses": [
+        "Abolition of Untouchability.",
+        "Article 17 of the Indian Constitution abolishes untouchability."
+      ]
+    },
+    {
+      "tag": "Article_18",
+      "patterns": [
+        "Articles 18",
+        "Article-18"
+      ],
+      "responses": [
+        "Abolition of titles.",
+        "Article 18 of the Indian Constitution abolishes titles."
+      ]
+    },
+    {
+      "tag": "Article_19",
+      "patterns": [
+        "Articles 19",
+        "Article-19"
+      ],
+      "responses": [
+        "Protection of certain rights regarding freedom of speech, etc.",
+        "Article 19 of the Indian Constitution protects certain rights regarding freedom of speech, etc."
+      ]
+    },
+    {
+      "tag": "Article_20",
+      "patterns": [
+        "Articles 20",
+        "Article-20"
+      ],
+      "responses": [
+        "Protection in respect of conviction for offences.",
+        "Article 20 of the Indian Constitution provides protection in respect of conviction for offences."
+      ]
+    },
+    {
+      "tag": "Article_21",
+      "patterns": [
+        "Articles 21",
+        "Article-21"
+      ],
+      "responses": [
+        "Protection of life and personal liberty.",
+        "Article 21 of the Indian Constitution protects the right to life and personal liberty."
+      ]
+    },
+    {
+      "tag": "Article_21A",
+      "patterns": [
+        "Articles 21A",
+        "Article-21A"
+      ],
+      "responses": [
+        "Right to education.",
+        "Article 21A of the Indian Constitution guarantees the right to education."
+      ]
+    },
+    {
+      "tag": "Article_22",
+      "patterns": [
+        "Articles 22",
+        "Article-22"
+      ],
+      "responses": [
+        "Protection against arrest and detention in certain cases.",
+        "Article 22 of the Indian Constitution provides protection against arrest and detention in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_23",
+      "patterns": [
+        "Articles 23",
+        "Article-23"
+      ],
+      "responses": [
+        "Prohibition of traffic in human beings and forced labour.",
+        "Article 23 of the Indian Constitution prohibits traffic in human beings and forced labor."
+      ]
+    },
+    {
+      "tag": "Article_24",
+      "patterns": [
+        "Articles 24",
+        "Article-24"
+      ],
+      "responses": [
+        "Prohibition of employment of children in factories, etc.",
+        "Article 24 of the Indian Constitution prohibits the employment of children in factories, etc."
+      ]
+    },
+    {
+      "tag": "Article_25",
+      "patterns": [
+        "Articles 25",
+        "Article-25"
+      ],
+      "responses": [
+        "Freedom of conscience and free profession, practice and propagation of religion.",
+        "Article 25 of the Indian Constitution guarantees freedom of conscience and free profession, practice, and propagation of religion."
+      ]
+    },
+    {
+      "tag": "Article_26",
+      "patterns": [
+        "Articles 26",
+        "Article-26"
+      ],
+      "responses": [
+        "Freedom to manage religious affairs.",
+        "Article 26 of the Indian Constitution guarantees the freedom to manage religious affairs."
+      ]
+    },
+    {
+      "tag": "Article_27",
+      "patterns": [
+        "Articles 27",
+        "Article-27"
+      ],
+      "responses": [
+        "Freedom as to payment of taxes for promotion of any particular religion.",
+        "Article 27 of the Indian Constitution guarantees freedom as to payment of taxes for promotion of any particular religion."
+      ]
+    },
+    {
+      "tag": "Article_28",
+      "patterns": [
+        "Articles 28",
+        "Article-28"
+      ],
+      "responses": [
+        "Freedom as to attendance at religious instruction or religious worship in certain educational institutions.",
+        "Article 28 of the Indian Constitution guarantees freedom as to attendance at religious instruction or religious worship in certain educational institutions."
+      ]
+    },
+    {
+      "tag": "Article_29",
+      "patterns": [
+        "Articles 29",
+        "Article-29"
+      ],
+      "responses": [
+        "Protection of interests of minorities.",
+        "Article 29 of the Indian Constitution provides for the protection of the interests of minorities."
+      ]
+    },
+    {
+      "tag": "Article_30",
+      "patterns": [
+        "Articles 30",
+        "Article-30"
+      ],
+      "responses": [
+        "Right of minorities to establish and administer educational institutions.",
+        "Article 30 of the Indian Constitution guarantees the right of minorities to establish and administer educational institutions."
+      ]
+    },
+    {
+      "tag": "Article_31",
+      "patterns": [
+        "Articles 31",
+        "Article-31"
+      ],
+      "responses": [
+        "Repealed.",
+        "Article 31 of the Indian Constitution was repealed."
+      ]
+    },
+    {
+      "tag": "Article_31A",
+      "patterns": [
+        "Articles 31A",
+        "Article-31A"
+      ],
+      "responses": [
+        "Saving of Laws providing for the acquisition of estates, etc.",
+        "Article 31A of the Indian Constitution saves laws providing for the acquisition of estates, etc."
+      ]
+    },
+    {
+      "tag": "Article_31B",
+      "patterns": [
+        "Articles 31B",
+        "Article-31B"
+      ],
+      "responses": [
+        "Validation of certain Acts and Regulations.",
+        "Article 31B of the Indian Constitution validates certain Acts and Regulations."
+      ]
+    },
+    {
+      "tag": "Article_31C",
+      "patterns": [
+        "Articles 31C",
+        "Article-31C"
+      ],
+      "responses": [
+        "Saving of laws giving effect to certain directive principles.",
+        "Article 31C of the Indian Constitution saves laws giving effect to certain directive principles."
+      ]
+    },
+    {
+      "tag": "Article_31D",
+      "patterns": [
+        "Articles 31D",
+        "Article-31D"
+      ],
+      "responses": [
+        "Repealed.",
+        "Article 31D of the Indian Constitution was repealed."
+      ]
+    },
+    {
+      "tag": "Article_32",
+      "patterns": [
+        "Articles 32",
+        "Article-32"
+      ],
+      "responses": [
+        "Remedies for enforcement of rights conferred by this Part.",
+        "Article 32 of the Indian Constitution provides remedies for enforcement of rights conferred by Part III."
+      ]
+    },
+    {
+      "tag": "Article_32A",
+      "patterns": [
+        "Articles 32A",
+        "Article-32A"
+      ],
+      "responses": [
+        "Repealed.",
+        "Article 32A of the Indian Constitution was repealed."
+      ]
+    },
+    {
+      "tag": "Article_33",
+      "patterns": [
+        "Articles 33",
+        "Article-33"
+      ],
+      "responses": [
+        "Power of Parliament to modify the rights conferred by this Part in their application to Forces, etc.",
+        "Article 33 of the Indian Constitution grants power to Parliament to modify the rights conferred by Part III in their application to Forces, etc."
+      ]
+    },
+    {
+      "tag": "Article_34",
+      "patterns": [
+        "Articles 34",
+        "Article-34"
+      ],
+      "responses": [
+        "Restriction on rights conferred by this Part while martial law is in force in any area.",
+        "Article 34 of the Indian Constitution imposes restrictions on rights conferred by Part III while martial law is in force in any area."
+      ]
+    },
+    {
+      "tag": "Article_35",
+      "patterns": [
+        "Articles 35",
+        "Article-35"
+      ],
+      "responses": [
+        "Legislation to give effect to the provisions of this Part.",
+        "Article 35 of the Indian Constitution provides for legislation to give effect to the provisions of Part III."
+      ]
+    },
+    {
+      "tag": "PART_IV_articles",
+      "patterns": [
+        "Articles under Part IV of the Indian Constitution.",
+        "Part IV of the Indian Constitution contain?"
+      ],
+      "responses": [
+        "Part IV of the Indian Constitution contains Directive Principles of State Policy.",
+        "Part IV of the Indian Constitution deals with Directive Principles of State Policy. Would you like to know about a specific Article under Part IV?"
+      ]
+    },
+    {
+      "tag": "Article_36",
+      "patterns": [
+        "Articles 36",
+        "Article-36"
+      ],
+      "responses": [
+        "Definition of 'State'.",
+        "Article 36 of the Indian Constitution defines the term 'State' as used in Part IV."
+      ]
+    },
+    {
+      "tag": "Article_37",
+      "patterns": [
+        "Articles 37",
+        "Article-37"
+      ],
+      "responses": [
+        "Application of the principles contained in this Part.",
+        "Article 37 of the Indian Constitution deals with the application of the principles contained in Part IV."
+      ]
+    },
+    {
+      "tag": "Article_38",
+      "patterns": [
+        "Articles 38",
+        "Article-38"
+      ],
+      "responses": [
+        "State to secure a social order for the promotion of the welfare of the people.",
+        "Article 38 of the Indian Constitution mandates the State to secure a social order for the promotion of the welfare of the people."
+      ]
+    },
+    {
+      "tag": "Article_39",
+      "patterns": [
+        "Articles 39",
+        "Article-39"
+      ],
+      "responses": [
+        "Certain principles of policy to be followed by the State.",
+        "Article 39 of the Indian Constitution lays down certain principles of policy to be followed by the State."
+      ]
+    },
+    {
+      "tag": "Article_39A",
+      "patterns": [
+        "Articles 39A",
+        "Article-39A"
+      ],
+      "responses": [
+        "Equal justice and free legal aid.",
+        "Article 39A of the Indian Constitution guarantees equal justice and free legal aid."
+      ]
+    },
+    {
+      "tag": "Article_40",
+      "patterns": [
+        "Articles 40",
+        "Article-40"
+      ],
+      "responses": [
+        "The organisation of village panchayats.",
+        "Article 40 of the Indian Constitution provides for the organisation of village panchayats."
+      ]
+    },
+    {
+      "tag": "Article_41",
+      "patterns": [
+        "Articles 41",
+        "Article-41"
+      ],
+      "responses": [
+        "Right to work, to education and to public assistance in certain cases.",
+        "Article 41 of the Indian Constitution guarantees the right to work, to education, and to public assistance in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_42",
+      "patterns": [
+        "Articles 42",
+        "Article-42"
+      ],
+      "responses": [
+        "Provision for just and humane conditions of work and maternity relief.",
+        "Article 42 of the Indian Constitution provides for just and humane conditions of work and maternity relief."
+      ]
+    },
+    {
+      "tag": "Article_43",
+      "patterns": [
+        "Articles 43",
+        "Article-43"
+      ],
+      "responses": [
+        "Living wage, etc., for workers.",
+        "Article 43 of the Indian Constitution provides for a living wage, etc., for workers."
+      ]
+    },
+    {
+      "tag": "Article_43A",
+      "patterns": [
+        "Articles 43A",
+        "Article-43A"
+      ],
+      "responses": [
+        "Participation of workers in the management of industries.",
+        "Article 43A of the Indian Constitution guarantees the participation of workers in the management of industries."
+      ]
+    },
+    {
+      "tag": "Article_43B",
+      "patterns": [
+        "Articles 43B",
+        "Article-43B"
+      ],
+      "responses": [
+        "Promotion of co-operative societies.",
+        "Article 43B of the Indian Constitution promotes co-operative societies."
+      ]
+    },
+    {
+      "tag": "Article_44",
+      "patterns": [
+        "Articles 44",
+        "Article-44"
+      ],
+      "responses": [
+        "Uniform civil code for the citizens.",
+        "Article 44 of the Indian Constitution provides for a uniform civil code for the citizens."
+      ]
+    },
+    {
+      "tag": "Article_45",
+      "patterns": [
+        "Articles 45",
+        "Article-45"
+      ],
+      "responses": [
+        "Provision for free and compulsory education for children.",
+        "Article 45 of the Indian Constitution provides for free and compulsory education for children."
+      ]
+    },
+    {
+      "tag": "Article_46",
+      "patterns": [
+        "Articles 46",
+        "Article-46"
+      ],
+      "responses": [
+        "Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes and other weaker sections.",
+        "Article 46 of the Indian Constitution promotes the educational and economic interests of Scheduled Castes, Scheduled Tribes, and other weaker sections."
+      ]
+    },
+    {
+      "tag": "Article_47",
+      "patterns": [
+        "Articles 47",
+        "Article-47"
+      ],
+      "responses": [
+        "Duty of the State to raise the level of nutrition and the standard of living and to improve public health.",
+        "Article 47 of the Indian Constitution imposes a duty on the State to raise the level of nutrition and the standard of living and to improve public health."
+      ]
+    },
+    {
+      "tag": "Article_48",
+      "patterns": [
+        "Articles 48",
+        "Article-48"
+      ],
+      "responses": [
+        "The organisation of agriculture and animal husbandry.",
+        "Article 48 of the Indian Constitution provides for the organisation of agriculture and animal husbandry."
+      ]
+    },
+    {
+      "tag": "Article_48A",
+      "patterns": [
+        "Articles 48A",
+        "Article-48A"
+      ],
+      "responses": [
+        "Protection and improvement of environment and safeguarding of forests and wildlife.",
+        "Article 48A of the Indian Constitution protects and improves the environment and safeguards forests and wildlife."
+      ]
+    },
+    {
+      "tag": "Article_49",
+      "patterns": [
+        "Articles 49",
+        "Article-49"
+      ],
+      "responses": [
+        "Protection of monuments and places and objects of national importance.",
+        "Article 49 of the Indian Constitution protects monuments, places, and objects of national importance."
+      ]
+    },
+    {
+      "tag": "Article_50",
+      "patterns": [
+        "Articles 50",
+        "Article-50"
+      ],
+      "responses": [
+        "Separation of judiciary from the executive.",
+        "Article 50 of the Indian Constitution mandates the separation of the judiciary from the executive."
+      ]
+    },
+    {
+      "tag": "Article_51",
+      "patterns": [
+        "Articles 51",
+        "Article-51"
+      ],
+      "responses": [
+        "Promotion of international peace and security.",
+        "Article 51 of the Indian Constitution promotes international peace and security."
+      ]
+    },
+    {
+      "tag": "PART_IV_articles",
+      "patterns": [
+        "Articles under Part IV of the Indian Constitution.",
+        "Part IV of the Indian Constitution contain?"
+      ],
+      "responses": [
+        "Part IV of the Indian Constitution contains Directive Principles of State Policy.",
+        "Part IV of the Indian Constitution deals with Directive Principles of State Policy. Would you like to know about a specific Article under Part IV?"
+      ]
+    },
+    {
+      "tag": "Article_36",
+      "patterns": [
+        "Articles 36",
+        "Article-36"
+      ],
+      "responses": [
+        "Definition of 'State'.",
+        "Article 36 of the Indian Constitution defines the term 'State' as used in Part IV."
+      ]
+    },
+    {
+      "tag": "Article_37",
+      "patterns": [
+        "Articles 37",
+        "Article-37"
+      ],
+      "responses": [
+        "Application of the principles contained in this Part.",
+        "Article 37 of the Indian Constitution deals with the application of the principles contained in Part IV."
+      ]
+    },
+    {
+      "tag": "Article_38",
+      "patterns": [
+        "Articles 38",
+        "Article-38"
+      ],
+      "responses": [
+        "State to secure a social order for the promotion of the welfare of the people.",
+        "Article 38 of the Indian Constitution mandates the State to secure a social order for the promotion of the welfare of the people."
+      ]
+    },
+    {
+      "tag": "Article_39",
+      "patterns": [
+        "Articles 39",
+        "Article-39"
+      ],
+      "responses": [
+        "Certain principles of policy to be followed by the State.",
+        "Article 39 of the Indian Constitution lays down certain principles of policy to be followed by the State."
+      ]
+    },
+    {
+      "tag": "Article_39A",
+      "patterns": [
+        "Articles 39A",
+        "Article-39A"
+      ],
+      "responses": [
+        "Equal justice and free legal aid.",
+        "Article 39A of the Indian Constitution guarantees equal justice and free legal aid."
+      ]
+    },
+    {
+      "tag": "Article_40",
+      "patterns": [
+        "Articles 40",
+        "Article-40"
+      ],
+      "responses": [
+        "The organisation of village panchayats.",
+        "Article 40 of the Indian Constitution provides for the organisation of village panchayats."
+      ]
+    },
+    {
+      "tag": "Article_41",
+      "patterns": [
+        "Articles 41",
+        "Article-41"
+      ],
+      "responses": [
+        "Right to work, to education and to public assistance in certain cases.",
+        "Article 41 of the Indian Constitution guarantees the right to work, to education, and to public assistance in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_42",
+      "patterns": [
+        "Articles 42",
+        "Article-42"
+      ],
+      "responses": [
+        "Provision for just and humane conditions of work and maternity relief.",
+        "Article 42 of the Indian Constitution provides for just and humane conditions of work and maternity relief."
+      ]
+    },
+    {
+      "tag": "Article_43",
+      "patterns": [
+        "Articles 43",
+        "Article-43"
+      ],
+      "responses": [
+        "Living wage, etc., for workers.",
+        "Article 43 of the Indian Constitution provides for a living wage, etc., for workers."
+      ]
+    },
+    {
+      "tag": "Article_43A",
+      "patterns": [
+        "Articles 43A",
+        "Article-43A"
+      ],
+      "responses": [
+        "Participation of workers in the management of industries.",
+        "Article 43A of the Indian Constitution guarantees the participation of workers in the management of industries."
+      ]
+    },
+    {
+      "tag": "Article_43B",
+      "patterns": [
+        "Articles 43B",
+        "Article-43B"
+      ],
+      "responses": [
+        "Promotion of co-operative societies.",
+        "Article 43B of the Indian Constitution promotes co-operative societies."
+      ]
+    },
+    {
+      "tag": "Article_44",
+      "patterns": [
+        "Articles 44",
+        "Article-44"
+      ],
+      "responses": [
+        "Uniform civil code for the citizens.",
+        "Article 44 of the Indian Constitution provides for a uniform civil code for the citizens."
+      ]
+    },
+    {
+      "tag": "Article_45",
+      "patterns": [
+        "Articles 45",
+        "Article-45"
+      ],
+      "responses": [
+        "Provision for free and compulsory education for children.",
+        "Article 45 of the Indian Constitution provides for free and compulsory education for children."
+      ]
+    },
+    {
+      "tag": "Article_46",
+      "patterns": [
+        "Articles 46",
+        "Article-46"
+      ],
+      "responses": [
+        "Promotion of educational and economic interests of Scheduled Castes, Scheduled Tribes and other weaker sections.",
+        "Article 46 of the Indian Constitution promotes the educational and economic interests of Scheduled Castes, Scheduled Tribes, and other weaker sections."
+      ]
+    },
+    {
+      "tag": "Article_47",
+      "patterns": [
+        "Articles 47",
+        "Article-47"
+      ],
+      "responses": [
+        "Duty of the State to raise the level of nutrition and the standard of living and to improve public health.",
+        "Article 47 of the Indian Constitution imposes a duty on the State to raise the level of nutrition and the standard of living and to improve public health."
+      ]
+    },
+    {
+      "tag": "Article_48",
+      "patterns": [
+        "Articles 48",
+        "Article-48"
+      ],
+      "responses": [
+        "The organisation of agriculture and animal husbandry.",
+        "Article 48 of the Indian Constitution provides for the organisation of agriculture and animal husbandry."
+      ]
+    },
+    {
+      "tag": "Article_48A",
+      "patterns": [
+        "Articles 48A",
+        "Article-48A"
+      ],
+      "responses": [
+        "Protection and improvement of environment and safeguarding of forests and wildlife.",
+        "Article 48A of the Indian Constitution protects and improves the environment and safeguards forests and wildlife."
+      ]
+    },
+    {
+      "tag": "Article_49",
+      "patterns": [
+        "Articles 49",
+        "Article-49"
+      ],
+      "responses": [
+        "Protection of monuments and places and objects of national importance.",
+        "Article 49 of the Indian Constitution protects monuments, places, and objects of national importance."
+      ]
+    },
+    {
+      "tag": "Article_50",
+      "patterns": [
+        "Articles 50",
+        "Article-50"
+      ],
+      "responses": [
+        "Separation of judiciary from the executive.",
+        "Article 50 of the Indian Constitution mandates the separation of the judiciary from the executive."
+      ]
+    },
+    {
+      "tag": "Article_51",
+      "patterns": [
+        "Articles 51",
+        "Article-51"
+      ],
+      "responses": [
+        "Promotion of international peace and security.",
+        "Article 51 of the Indian Constitution promotes international peace and security."
+      ]
+    },
+    {
+      "tag": "PART_V_articles",
+      "patterns": [
+        "Articles under Part V of the Indian Constitution.",
+        "Part V of the Indian Constitution contain?"
+      ],
+      "responses": [
+        "Part V of the Indian Constitution contains provisions related to the Union.",
+        "Part V of the Indian Constitution deals with the Union. Would you like to know about a specific Article under Part V?"
+      ]
+    },
+    {
+      "tag": "Article_52",
+      "patterns": [
+        "Articles 52",
+        "Article-52"
+      ],
+      "responses": [
+        "The President of India.",
+        "Article 52 of the Indian Constitution deals with the President of India."
+      ]
+    },
+    {
+      "tag": "Article_53",
+      "patterns": [
+        "Articles 53",
+        "Article-53"
+      ],
+      "responses": [
+        "Executive power of the Union.",
+        "Article 53 of the Indian Constitution deals with the executive power of the Union."
+      ]
+    },
+    {
+      "tag": "Article_54",
+      "patterns": [
+        "Articles 54",
+        "Article-54"
+      ],
+      "responses": [
+        "Election of President.",
+        "Article 54 of the Indian Constitution deals with the election of the President."
+      ]
+    },
+    {
+      "tag": "Article_55",
+      "patterns": [
+        "Articles 55",
+        "Article-55"
+      ],
+      "responses": [
+        "Manner of election of President.",
+        "Article 55 of the Indian Constitution specifies the manner of election of the President."
+      ]
+    },
+    {
+      "tag": "Article_56",
+      "patterns": [
+        "Articles 56",
+        "Article-56"
+      ],
+      "responses": [
+        "Term of office of President.",
+        "Article 56 of the Indian Constitution specifies the term of office of the President."
+      ]
+    },
+    {
+      "tag": "Article_57",
+      "patterns": [
+        "Articles 57",
+        "Article-57"
+      ],
+      "responses": [
+        "Eligibility for re-election of President.",
+        "Article 57 of the Indian Constitution deals with the eligibility for re-election of the President."
+      ]
+    },
+    {
+      "tag": "Article_58",
+      "patterns": [
+        "Articles 58",
+        "Article-58"
+      ],
+      "responses": [
+        "Qualifications for election as President.",
+        "Article 58 of the Indian Constitution specifies the qualifications for election as President."
+      ]
+    },
+    {
+      "tag": "Article_59",
+      "patterns": [
+        "Articles 59",
+        "Article-59"
+      ],
+      "responses": [
+        "Conditions of President's office.",
+        "Article 59 of the Indian Constitution specifies the conditions of the President's office."
+      ]
+    },
+    {
+      "tag": "Article_60",
+      "patterns": [
+        "Articles 60",
+        "Article-60"
+      ],
+      "responses": [
+        "Oath or affirmation by President.",
+        "Article 60 of the Indian Constitution specifies the oath or affirmation to be taken by the President."
+      ]
+    },
+    {
+      "tag": "Article_61",
+      "patterns": [
+        "Articles 61",
+        "Article-61"
+      ],
+      "responses": [
+        "Procedure for impeachment of the President.",
+        "Article 61 of the Indian Constitution specifies the procedure for the impeachment of the President."
+      ]
+    },
+    {
+      "tag": "Article_62",
+      "patterns": [
+        "Articles 62",
+        "Article-62"
+      ],
+      "responses": [
+        "Time of holding election to fill vacancy in the office of President and the term of office of person elected to fill casual vacancy.",
+        "Article 62 of the Indian Constitution specifies the time of holding election to fill a vacancy in the office of President and the term of office of a person elected to fill a casual vacancy."
+      ]
+    },
+    {
+      "tag": "Article_63",
+      "patterns": [
+        "Articles 63",
+        "Article-63"
+      ],
+      "responses": [
+        "Number of votes required by candidate for election as President.",
+        "Article 63 of the Indian Constitution specifies the number of votes required by a candidate for election as President."
+      ]
+    },
+    {
+      "tag": "Article_64",
+      "patterns": [
+        "Articles 64",
+        "Article-64"
+      ],
+      "responses": [
+        "The Vice-President of India.",
+        "Article 64 of the Indian Constitution deals with the Vice-President of India."
+      ]
+    },
+    {
+      "tag": "Article_65",
+      "patterns": [
+        "Articles 65",
+        "Article-65"
+      ],
+      "responses": [
+        "The Vice-President to be ex-officio Chairman of the Council of States.",
+        "Article 65 of the Indian Constitution specifies that the Vice-President is to be the ex-officio Chairman of the Council of States."
+      ]
+    },
+    {
+      "tag": "Article_66",
+      "patterns": [
+        "Articles 66",
+        "Article-66"
+      ],
+      "responses": [
+        "Election of Vice-President.",
+        "Article 66 of the Indian Constitution deals with the election of the Vice-President."
+      ]
+    },
+    {
+      "tag": "Article_67",
+      "patterns": [
+        "Articles 67",
+        "Article-67"
+      ],
+      "responses": [
+        "Term of office of Vice-President.",
+        "Article 67 of the Indian Constitution specifies the term of office of the Vice-President."
+      ]
+    },
+    {
+      "tag": "Article_68",
+      "patterns": [
+        "Articles 68",
+        "Article-68"
+      ],
+      "responses": [
+        "Time of holding election to fill vacancy in the office of Vice-President and the term of office of person elected to fill casual vacancy.",
+        "Article 68 of the Indian Constitution specifies the time of holding election to fill a vacancy in the office of Vice-President and the term of office of a person elected to fill a casual vacancy."
+      ]
+    },
+    {
+      "tag": "Article_69",
+      "patterns": [
+        "Articles 69",
+        "Article-69"
+      ],
+      "responses": [
+        "Oath or affirmation by Vice-President.",
+        "Article 69 of the Indian Constitution specifies the oath or affirmation to be taken by the Vice-President."
+      ]
+    },
+    {
+      "tag": "Article_70",
+      "patterns": [
+        "Articles 70",
+        "Article-70"
+      ],
+      "responses": [
+        "Discharge of President's functions in other contingencies.",
+        "Article 70 of the Indian Constitution deals with the discharge of the President's functions in other contingencies."
+      ]
+    },
+    {
+      "tag": "Article_71",
+      "patterns": [
+        "Articles 71",
+        "Article-71"
+      ],
+      "responses": [
+        "Matters relating to, or connected with, the election of a President or Vice-President.",
+        "Article 71 of the Indian Constitution specifies matters relating to, or connected with, the election of a President or Vice-President."
+      ]
+    },
+    {
+      "tag": "Article_72",
+      "patterns": [
+        "Articles 72",
+        "Article-72"
+      ],
+      "responses": [
+        "Power of President to grant pardons, etc., and to suspend, remit or commute sentences in certain cases.",
+        "Article 72 of the Indian Constitution specifies the power of the President to grant pardons, etc., and to suspend, remit, or commute sentences in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_73",
+      "patterns": [
+        "Articles 73",
+        "Article-73"
+      ],
+      "responses": [
+        "Extent of executive power of the Union.",
+        "Article 73 of the Indian Constitution specifies the extent of the executive power of the Union."
+      ]
+    },
+    {
+      "tag": "Article_74",
+      "patterns": [
+        "Articles 74",
+        "Article-74"
+      ],
+      "responses": [
+        "Council of Ministers to aid and advise President.",
+        "Article 74 of the Indian Constitution specifies that there shall be a Council of Ministers to aid and advise the President."
+      ]
+    },
+    {
+      "tag": "Article_75",
+      "patterns": [
+        "Articles 75",
+        "Article-75"
+      ],
+      "responses": [
+        "Other provisions as to Ministers.",
+        "Article 75 of the Indian Constitution contains other provisions as to Ministers."
+      ]
+    },
+    {
+      "tag": "Article_76",
+      "patterns": [
+        "Articles 76",
+        "Article-76"
+      ],
+      "responses": [
+        "Attorney-General for India.",
+        "Article 76 of the Indian Constitution deals with the Attorney-General for India."
+      ]
+    },
+    {
+      "tag": "Article_77",
+      "patterns": [
+        "Articles 77",
+        "Article-77"
+      ],
+      "responses": [
+        "Conduct of business of the Government of India.",
+        "Article 77 of the Indian Constitution specifies the conduct of business of the Government of India."
+      ]
+    },
+    {
+      "tag": "Article_78",
+      "patterns": [
+        "Articles 78",
+        "Article-78"
+      ],
+      "responses": [
+        "Duties of Prime Minister as respects the furnishing of information to the President, etc.",
+        "Article 78 of the Indian Constitution specifies the duties of the Prime Minister as respects the furnishing of information to the President, etc."
+      ]
+    },
+    {
+      "tag": "Article_79",
+      "patterns": [
+        "Articles 79",
+        "Article-79"
+      ],
+      "responses": [
+        "Constitution of Parliament.",
+        "Article 79 of the Indian Constitution deals with the constitution of Parliament."
+      ]
+    },
+    {
+      "tag": "Article_80",
+      "patterns": [
+        "Articles 80",
+        "Article-80"
+      ],
+      "responses": [
+        "Composition of the Council of States.",
+        "Article 80 of the Indian Constitution specifies the composition of the Council of States."
+      ]
+    },
+    {
+      "tag": "Article_81",
+      "patterns": [
+        "Articles 81",
+        "Article-81"
+      ],
+      "responses": [
+        "Composition of the House of the People.",
+        "Article 81 of the Indian Constitution specifies the composition of the House of the People."
+      ]
+    },
+    {
+      "tag": "Article_82",
+      "patterns": [
+        "Articles 82",
+        "Article-82"
+      ],
+      "responses": [
+        "Readjustment after each census.",
+        "Article 82 of the Indian Constitution deals with the readjustment after each census."
+      ]
+    },
+    {
+      "tag": "Article_83",
+      "patterns": [
+        "Articles 83",
+        "Article-83"
+      ],
+      "responses": [
+        "Duration of Houses of Parliament.",
+        "Article 83 of the Indian Constitution specifies the duration of the Houses of Parliament."
+      ]
+    },
+    {
+      "tag": "Article_84",
+      "patterns": [
+        "Articles 84",
+        "Article-84"
+      ],
+      "responses": [
+        "Qualification for membership of Parliament.",
+        "Article 84 of the Indian Constitution specifies the qualification for membership of Parliament."
+      ]
+    },
+    {
+      "tag": "Article_85",
+      "patterns": [
+        "Articles 85",
+        "Article-85"
+      ],
+      "responses": [
+        "Sessions of Parliament, prorogation and dissolution.",
+        "Article 85 of the Indian Constitution specifies the sessions of Parliament, prorogation, and dissolution."
+      ]
+    },
+    {
+      "tag": "Article_86",
+      "patterns": [
+        "Articles 86",
+        "Article-86"
+      ],
+      "responses": [
+        "Right of President to address and send messages to Houses.",
+        "Article 86 of the Indian Constitution specifies the right of the President to address and send messages to Houses."
+      ]
+    },
+    {
+      "tag": "Article_87",
+      "patterns": [
+        "Articles 87",
+        "Article-87"
+      ],
+      "responses": [
+        "Special address by the President.",
+        "Article 87 of the Indian Constitution specifies the special address by the President."
+      ]
+    },
+    {
+      "tag": "Article_88",
+      "patterns": [
+        "Articles 88",
+        "Article-88"
+      ],
+      "responses": [
+        "Rights of Ministers and Attorney-General as respects Houses.",
+        "Article 88 of the Indian Constitution specifies the rights of Ministers and the Attorney-General as respects Houses."
+      ]
+    },
+    {
+      "tag": "Article_89",
+      "patterns": [
+        "Articles 89",
+        "Article-89"
+      ],
+      "responses": [
+        "Officers of Parliament.",
+        "Article 89 of the Indian Constitution specifies the officers of Parliament."
+      ]
+    },
+    {
+      "tag": "Article_90",
+      "patterns": [
+        "Articles 90",
+        "Article-90"
+      ],
+      "responses": [
+        "Vacation and resignation of, and removal from, the office of Speaker.",
+        "Article 90 of the Indian Constitution specifies the vacation and resignation of, and removal from, the office of Speaker."
+      ]
+    },
+    {
+      "tag": "Article_91",
+      "patterns": [
+        "Articles 91",
+        "Article-91"
+      ],
+      "responses": [
+        "The Chairman and Deputy Chairman of the Council of States.",
+        "Article 91 of the Indian Constitution deals with the Chairman and Deputy Chairman of the Council of States."
+      ]
+    },
+    {
+      "tag": "Article_92",
+      "patterns": [
+        "Articles 92",
+        "Article-92"
+      ],
+      "responses": [
+        "Vacation and resignation of, and removal from, the office of Deputy Chairman.",
+        "Article 92 of the Indian Constitution specifies the vacation and resignation of, and removal from, the office of Deputy Chairman."
+      ]
+    },
+    {
+      "tag": "Article_93",
+      "patterns": [
+        "Articles 93",
+        "Article-93"
+      ],
+      "responses": [
+        "The Speaker and Deputy Speaker of the House of the People.",
+        "Article 93 of the Indian Constitution deals with the Speaker and Deputy Speaker of the House of the People."
+      ]
+    },
+    {
+      "tag": "Article_94",
+      "patterns": [
+        "Articles 94",
+        "Article-94"
+      ],
+      "responses": [
+        "Vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker.",
+        "Article 94 of the Indian Constitution specifies the vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker."
+      ]
+    },
+    {
+      "tag": "Article_95",
+      "patterns": [
+        "Articles 95",
+        "Article-95"
+      ],
+      "responses": [
+        "Powers of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman.",
+        "Article 95 of the Indian Constitution specifies the powers of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman."
+      ]
+    },
+    {
+      "tag": "Article_96",
+      "patterns": [
+        "Articles 96",
+        "Article-96"
+      ],
+      "responses": [
+        "Procedure in Parliament with respect to estimates.",
+        "Article 96 of the Indian Constitution specifies the procedure in Parliament with respect to estimates."
+      ]
+    },
+    {
+      "tag": "Article_97",
+      "patterns": [
+        "Articles 97",
+        "Article-97"
+      ],
+      "responses": [
+        "Provisions as to introduction and passing of Bills.",
+        "Article 97 of the Indian Constitution contains provisions as to the introduction and passing of Bills."
+      ]
+    },
+    {
+      "tag": "Article_98",
+      "patterns": [
+        "Articles 98",
+        "Article-98"
+      ],
+      "responses": [
+        "Rules of procedure.",
+        "Article 98 of the Indian Constitution specifies the rules of procedure."
+      ]
+    },
+    {
+      "tag": "Article_99",
+      "patterns": [
+        "Articles 99",
+        "Article-99"
+      ],
+      "responses": [
+        "Oath or affirmation by members.",
+        "Article 99 of the Indian Constitution specifies the oath or affirmation to be taken by members."
+      ]
+    },
+    {
+      "tag": "Article_100",
+      "patterns": [
+        "Articles 100",
+        "Article-100"
+      ],
+      "responses": [
+        "Voting in Houses, power of Houses to act notwithstanding vacancies and quorum.",
+        "Article 100 of the Indian Constitution deals with voting in Houses, power of Houses to act notwithstanding vacancies, and quorum."
+      ]
+    },
+    {
+      "tag": "Article_101",
+      "patterns": [
+        "Articles 101",
+        "Article-101"
+      ],
+      "responses": [
+        "Tenure of seats of members.",
+        "Article 101 of the Indian Constitution specifies the tenure of seats of members."
+      ]
+    },
+    {
+      "tag": "Article_102",
+      "patterns": [
+        "Articles 102",
+        "Article-102"
+      ],
+      "responses": [
+        "Disqualifications for membership.",
+        "Article 102 of the Indian Constitution specifies the disqualifications for membership."
+      ]
+    },
+    {
+      "tag": "Article_103",
+      "patterns": [
+        "Articles 103",
+        "Article-103"
+      ],
+      "responses": [
+        "Decision on questions as to disqualifications of members.",
+        "Article 103 of the Indian Constitution deals with the decision on questions as to disqualifications of members."
+      ]
+    },
+    {
+      "tag": "Article_104",
+      "patterns": [
+        "Articles 104",
+        "Article-104"
+      ],
+      "responses": [
+        "Penalty for sitting and voting before making oath or affirmation under article 99 or when not qualified or when disqualified.",
+        "Article 104 of the Indian Constitution specifies the penalty for sitting and voting before making the oath or affirmation under Article 99 or when not qualified or when disqualified."
+      ]
+    },
+    {
+      "tag": "Article_105",
+      "patterns": [
+        "Articles 105",
+        "Article-105"
+      ],
+      "responses": [
+        "Powers, privileges, etc., of the Houses of Parliament and of the members and committees thereof.",
+        "Article 105 of the Indian Constitution specifies the powers, privileges, etc., of the Houses of Parliament and of the members and committees thereof."
+      ]
+    },
+    {
+      "tag": "Article_106",
+      "patterns": [
+        "Articles 106",
+        "Article-106"
+      ],
+      "responses": [
+        "Salaries and allowances of members.",
+        "Article 106 of the Indian Constitution specifies the salaries and allowances of members."
+      ]
+    },
+    {
+      "tag": "Article_107",
+      "patterns": [
+        "Articles 107",
+        "Article-107"
+      ],
+      "responses": [
+        "Provision as to introduction and passing of Bills.",
+        "Article 107 of the Indian Constitution contains provision as to the introduction and passing of Bills."
+      ]
+    },
+    {
+      "tag": "Article_108",
+      "patterns": [
+        "Articles 108",
+        "Article-108"
+      ],
+      "responses": [
+        "Joint sitting of both Houses in certain cases.",
+        "Article 108 of the Indian Constitution specifies the joint sitting of both Houses in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_109",
+      "patterns": [
+        "Articles 109",
+        "Article-109"
+      ],
+      "responses": [
+        "Special procedure in respect of Money Bills.",
+        "Article 109 of the Indian Constitution specifies the special procedure in respect of Money Bills."
+      ]
+    },
+    {
+      "tag": "Article_110",
+      "patterns": [
+        "Articles 110",
+        "Article-110"
+      ],
+      "responses": [
+        "Definition of 'Money Bills'.",
+        "Article 110 of the Indian Constitution defines 'Money Bills'."
+      ]
+    },
+    {
+      "tag": "Article_111",
+      "patterns": [
+        "Articles 111",
+        "Article-111"
+      ],
+      "responses": [
+        "Assent to Bills.",
+        "Article 111 of the Indian Constitution specifies the assent to Bills."
+      ]
+    },
+    {
+      "tag": "Article_112",
+      "patterns": [
+        "Articles 112",
+        "Article-112"
+      ],
+      "responses": [
+        "Annual financial statement.",
+        "Article 112 of the Indian Constitution specifies the annual financial statement."
+      ]
+    },
+    {
+      "tag": "Article_113",
+      "patterns": [
+        "Articles 113",
+        "Article-113"
+      ],
+      "responses": [
+        "Procedure in Parliament with respect to estimates.",
+        "Article 113 of the Indian Constitution specifies the procedure in Parliament with respect to estimates."
+      ]
+    },
+    {
+      "tag": "Article_114",
+      "patterns": [
+        "Articles 114",
+        "Article-114"
+      ],
+      "responses": [
+        "Appropriation Bills.",
+        "Article 114 of the Indian Constitution deals with appropriation Bills."
+      ]
+    },
+    {
+      "tag": "Article_115",
+      "patterns": [
+        "Articles 115",
+        "Article-115"
+      ],
+      "responses": [
+        "Votes on account, votes of credit and exceptional grants.",
+        "Article 115 of the Indian Constitution specifies votes on account, votes of credit, and exceptional grants."
+      ]
+    },
+    {
+      "tag": "Article_116",
+      "patterns": [
+        "Articles 116",
+        "Article-116"
+      ],
+      "responses": [
+        "Special provisions as to financial Bills.",
+        "Article 116 of the Indian Constitution contains special provisions as to financial Bills."
+      ]
+    },
+    {
+      "tag": "Article_117",
+      "patterns": [
+        "Articles 117",
+        "Article-117"
+      ],
+      "responses": [
+        "Special provisions as to Bills for imposing taxes.",
+        "Article 117 of the Indian Constitution contains special provisions as to Bills for imposing taxes."
+      ]
+    },
+    {
+      "tag": "Article_118",
+      "patterns": [
+        "Articles 118",
+        "Article-118"
+      ],
+      "responses": [
+        "Rules of procedure.",
+        "Article 118 of the Indian Constitution specifies the rules of procedure."
+      ]
+    },
+    {
+      "tag": "Article_119",
+      "patterns": [
+        "Articles 119",
+        "Article-119"
+      ],
+      "responses": [
+        "Regulation by law of procedure in Parliament in relation to financial business.",
+        "Article 119 of the Indian Constitution specifies the regulation by law of procedure in Parliament in relation to financial business."
+      ]
+    },
+    {
+      "tag": "Article_120",
+      "patterns": [
+        "Articles 120",
+        "Article-120"
+      ],
+      "responses": [
+        "Language to be used in Parliament.",
+        "Article 120 of the Indian Constitution specifies the language to be used in Parliament."
+      ]
+    },
+    {
+      "tag": "Article_121",
+      "patterns": [
+        "Articles 121",
+        "Article-121"
+      ],
+      "responses": [
+        "Restriction on discussion in Parliament.",
+        "Article 121 of the Indian Constitution specifies the restriction on discussion in Parliament."
+      ]
+    },
+    {
+      "tag": "Article_122",
+      "patterns": [
+        "Articles 122",
+        "Article-122"
+      ],
+      "responses": [
+        "Courts not to inquire into proceedings of Parliament.",
+        "Article 122 of the Indian Constitution specifies that courts are not to inquire into the proceedings of Parliament."
+      ]
+    },
+    {
+      "tag": "Article_123",
+      "patterns": [
+        "Articles 123",
+        "Article-123"
+      ],
+      "responses": [
+        "Power of President to promulgate Ordinances during recess of Parliament.",
+        "Article 123 of the Indian Constitution specifies the power of the President to promulgate Ordinances during the recess of Parliament."
+      ]
+    },
+    {
+      "tag": "Article_124",
+      "patterns": [
+        "Articles 124",
+        "Article-124"
+      ],
+      "responses": [
+        "Establishment and constitution of Supreme Court.",
+        "Article 124 of the Indian Constitution deals with the establishment and constitution of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_125",
+      "patterns": [
+        "Articles 125",
+        "Article-125"
+      ],
+      "responses": [
+        "Salaries, etc., of Judges.",
+        "Article 125 of the Indian Constitution specifies the salaries, etc., of Judges."
+      ]
+    },
+    {
+      "tag": "Article_126",
+      "patterns": [
+        "Articles 126",
+        "Article-126"
+      ],
+      "responses": [
+        "Appointment of acting Chief Justice.",
+        "Article 126 of the Indian Constitution specifies the appointment of an acting Chief Justice."
+      ]
+    },
+    {
+      "tag": "Article_127",
+      "patterns": [
+        "Articles 127",
+        "Article-127"
+      ],
+      "responses": [
+        "Appointment of ad hoc Judges.",
+        "Article 127 of the Indian Constitution specifies the appointment of ad hoc Judges."
+      ]
+    },
+    {
+      "tag": "Article_128",
+      "patterns": [
+        "Articles 128",
+        "Article-128"
+      ],
+      "responses": [
+        "Attendance of retired Judges at sittings of the Supreme Court.",
+        "Article 128 of the Indian Constitution specifies the attendance of retired Judges at sittings of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_129",
+      "patterns": [
+        "Articles 129",
+        "Article-129"
+      ],
+      "responses": [
+        "Supreme Court to be a court of record.",
+        "Article 129 of the Indian Constitution specifies that the Supreme Court is to be a court of record."
+      ]
+    },
+    {
+      "tag": "Article_130",
+      "patterns": [
+        "Articles 130",
+        "Article-130"
+      ],
+      "responses": [
+        "Seat of Supreme Court.",
+        "Article 130 of the Indian Constitution specifies the seat of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_131",
+      "patterns": [
+        "Articles 131",
+        "Article-131"
+      ],
+      "responses": [
+        "Original jurisdiction of the Supreme Court.",
+        "Article 131 of the Indian Constitution specifies the original jurisdiction of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_132",
+      "patterns": [
+        "Articles 132",
+        "Article-132"
+      ],
+      "responses": [
+        "Appellate jurisdiction of Supreme Court in appeals from High Courts in certain cases.",
+        "Article 132 of the Indian Constitution specifies the appellate jurisdiction of the Supreme Court in appeals from High Courts in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_133",
+      "patterns": [
+        "Articles 133",
+        "Article-133"
+      ],
+      "responses": [
+        "Appellate jurisdiction of Supreme Court in regard to civil matters.",
+        "Article 133 of the Indian Constitution specifies the appellate jurisdiction of the Supreme Court in regard to civil matters."
+      ]
+    },
+    {
+      "tag": "Article_134",
+      "patterns": [
+        "Articles 134",
+        "Article-134"
+      ],
+      "responses": [
+        "Appellate jurisdiction of Supreme Court in regard to criminal matters.",
+        "Article 134 of the Indian Constitution specifies the appellate jurisdiction of the Supreme Court in regard to criminal matters."
+      ]
+    },
+    {
+      "tag": "Article_135",
+      "patterns": [
+        "Articles 135",
+        "Article-135"
+      ],
+      "responses": [
+        "Jurisdiction and powers of the Federal Court under existing law to be exercisable by the Supreme Court.",
+        "Article 135 of the Indian Constitution specifies that the jurisdiction and powers of the Federal Court under existing law are to be exercisable by the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_136",
+      "patterns": [
+        "Articles 136",
+        "Article-136"
+      ],
+      "responses": [
+        "Special leave to appeal by the Supreme Court.",
+        "Article 136 of the Indian Constitution deals with special leave to appeal by the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_137",
+      "patterns": [
+        "Articles 137",
+        "Article-137"
+      ],
+      "responses": [
+        "Review of judgments or orders by the Supreme Court.",
+        "Article 137 of the Indian Constitution specifies the review of judgments or orders by the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_138",
+      "patterns": [
+        "Articles 138",
+        "Article-138"
+      ],
+      "responses": [
+        "Enlargement of the jurisdiction of the Supreme Court.",
+        "Article 138 of the Indian Constitution specifies the enlargement of the jurisdiction of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_139",
+      "patterns": [
+        "Articles 139",
+        "Article-139"
+      ],
+      "responses": [
+        "Conferment on the Supreme Court of powers to issue certain writs.",
+        "Article 139 of the Indian Constitution specifies the conferment on the Supreme Court of powers to issue certain writs."
+      ]
+    },
+    {
+      "tag": "Article_140",
+      "patterns": [
+        "Articles 140",
+        "Article-140"
+      ],
+      "responses": [
+        "Ancillary powers of Supreme Court.",
+        "Article 140 of the Indian Constitution specifies the ancillary powers of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_141",
+      "patterns": [
+        "Articles 141",
+        "Article-141"
+      ],
+      "responses": [
+        "Law declared by Supreme Court to be binding on all courts.",
+        "Article 141 of the Indian Constitution specifies that the law declared by the Supreme Court is to be binding on all courts."
+      ]
+    },
+    {
+      "tag": "Article_142",
+      "patterns": [
+        "Articles 142",
+        "Article-142"
+      ],
+      "responses": [
+        "Enforcement of decrees and orders of Supreme Court and orders as to discovery, etc.",
+        "Article 142 of the Indian Constitution specifies the enforcement of decrees and orders of the Supreme Court and orders as to discovery, etc."
+      ]
+    },
+    {
+      "tag": "Article_143",
+      "patterns": [
+        "Articles 143",
+        "Article-143"
+      ],
+      "responses": [
+        "Power of President to consult Supreme Court.",
+        "Article 143 of the Indian Constitution specifies the power of the President to consult the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_144",
+      "patterns": [
+        "Articles 144",
+        "Article-144"
+      ],
+      "responses": [
+        "Civil and judicial authorities to act in aid of the Supreme Court.",
+        "Article 144 of the Indian Constitution specifies that civil and judicial authorities are to act in aid of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_145",
+      "patterns": [
+        "Articles 145",
+        "Article-145"
+      ],
+      "responses": [
+        "Rules of Court, etc.",
+        "Article 145 of the Indian Constitution specifies the rules of the Court, etc."
+      ]
+    },
+    {
+      "tag": "Article_146",
+      "patterns": [
+        "Articles 146",
+        "Article-146"
+      ],
+      "responses": [
+        "Officers and servants and the expenses of the Supreme Court.",
+        "Article 146 of the Indian Constitution specifies the officers and servants and the expenses of the Supreme Court."
+      ]
+    },
+    {
+      "tag": "Article_147",
+      "patterns": [
+        "Articles 147",
+        "Article-147"
+      ],
+      "responses": [
+        "Interpretation.",
+        "Article 147 of the Indian Constitution specifies the interpretation."
+      ]
+    },
+    {
+      "tag": "Article_148",
+      "patterns": [
+        "Articles 148",
+        "Article-148"
+      ],
+      "responses": [
+        "Comptroller and Auditor-General of India.",
+        "Article 148 of the Indian Constitution deals with the Comptroller and Auditor-General of India."
+      ]
+    },
+    {
+      "tag": "Article_149",
+      "patterns": [
+        "Articles 149",
+        "Article-149"
+      ],
+      "responses": [
+        "Duties and powers of the Comptroller and Auditor-General.",
+        "Article 149 of the Indian Constitution specifies the duties and powers of the Comptroller and Auditor-General."
+      ]
+    },
+    {
+      "tag": "Article_150",
+      "patterns": [
+        "Articles 150",
+        "Article-150"
+      ],
+      "responses": [
+        "Form of accounts of the Union and of the States.",
+        "Article 150 of the Indian Constitution specifies the form of accounts of the Union and of the States."
+      ]
+    },
+    {
+      "tag": "Article_151",
+      "patterns": [
+        "Articles 151",
+        "Article-151"
+      ],
+      "responses": [
+        "Audit reports.",
+        "Article 151 of the Indian Constitution specifies the audit reports."
+      ]
+    },
+    {
+      "tag": "Article_152",
+      "patterns": [
+        "Articles 152",
+        "Article-152"
+      ],
+      "responses": [
+        "Audit of accounts of other bodies.",
+        "Article 152 of the Indian Constitution specifies the audit of accounts of other bodies."
+      ]
+    },
+    {
+      "tag": "Article_153",
+      "patterns": [
+        "Articles 153",
+        "Article-153"
+      ],
+      "responses": [
+        "Governors of States.",
+        "Article 153 of the Indian Constitution deals with the Governors of States."
+      ]
+    },
+    {
+      "tag": "Article_154",
+      "patterns": [
+        "Articles 154",
+        "Article-154"
+      ],
+      "responses": [
+        "Executive power of State.",
+        "Article 154 of the Indian Constitution specifies the executive power of the State."
+      ]
+    },
+    {
+      "tag": "Article_155",
+      "patterns": [
+        "Articles 155",
+        "Article-155"
+      ],
+      "responses": [
+        "Appointment of Governor.",
+        "Article 155 of the Indian Constitution specifies the appointment of the Governor."
+      ]
+    },
+    {
+      "tag": "Article_156",
+      "patterns": [
+        "Articles 156",
+        "Article-156"
+      ],
+      "responses": [
+        "Term of office of Governor.",
+        "Article 156 of the Indian Constitution specifies the term of office of the Governor."
+      ]
+    },
+    {
+      "tag": "Article_157",
+      "patterns": [
+        "Articles 157",
+        "Article-157"
+      ],
+      "responses": [
+        "Qualifications for appointment as Governor.",
+        "Article 157 of the Indian Constitution specifies the qualifications for appointment as Governor."
+      ]
+    },
+    {
+      "tag": "Article_158",
+      "patterns": [
+        "Articles 158",
+        "Article-158"
+      ],
+      "responses": [
+        "Conditions of Governor's office.",
+        "Article 158 of the Indian Constitution specifies the conditions of the Governor's office."
+      ]
+    },
+    {
+      "tag": "Article_159",
+      "patterns": [
+        "Articles 159",
+        "Article-159"
+      ],
+      "responses": [
+        "Oath or affirmation by the Governor.",
+        "Article 159 of the Indian Constitution specifies the oath or affirmation to be taken by the Governor."
+      ]
+    },
+    {
+      "tag": "Article_160",
+      "patterns": [
+        "Articles 160",
+        "Article-160"
+      ],
+      "responses": [
+        "Discharge of the functions of the Governor in certain contingencies.",
+        "Article 160 of the Indian Constitution specifies the discharge of the functions of the Governor in certain contingencies."
+      ]
+    },
+    {
+      "tag": "Article_161",
+      "patterns": [
+        "Articles 161",
+        "Article-161"
+      ],
+      "responses": [
+        "Power of Governor to grant pardons, etc., and to suspend, remit or commute sentences in certain cases.",
+        "Article 161 of the Indian Constitution specifies the power of the Governor to grant pardons, etc., and to suspend, remit, or commute sentences in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_162",
+      "patterns": [
+        "Articles 162",
+        "Article-162"
+      ],
+      "responses": [
+        "Extent of executive power of State.",
+        "Article 162 of the Indian Constitution specifies the extent of the executive power of the State."
+      ]
+    },
+    {
+      "tag": "Article_163",
+      "patterns": [
+        "Articles 163",
+        "Article-163"
+      ],
+      "responses": [
+        "Council of Ministers to aid and advise Governor.",
+        "Article 163 of the Indian Constitution specifies that there shall be a Council of Ministers to aid and advise the Governor."
+      ]
+    },
+    {
+      "tag": "Article_164",
+      "patterns": [
+        "Articles 164",
+        "Article-164"
+      ],
+      "responses": [
+        "Other provisions as to Ministers.",
+        "Article 164 of the Indian Constitution contains other provisions as to Ministers."
+      ]
+    },
+    {
+      "tag": "Article_165",
+      "patterns": [
+        "Articles 165",
+        "Article-165"
+      ],
+      "responses": [
+        "Appointment of Chief Minister.",
+        "Article 165 of the Indian Constitution specifies the appointment of the Chief Minister."
+      ]
+    },
+    {
+      "tag": "Article_166",
+      "patterns": [
+        "Articles 166",
+        "Article-166"
+      ],
+      "responses": [
+        "Conduct of business of the Government of a State.",
+        "Article 166 of the Indian Constitution specifies the conduct of business of the Government of a State."
+      ]
+    },
+    {
+      "tag": "Article_167",
+      "patterns": [
+        "Articles 167",
+        "Article-167"
+      ],
+      "responses": [
+        "Duty of Chief Minister as respects the furnishing of information to Governor, etc.",
+        "Article 167 of the Indian Constitution specifies the duty of the Chief Minister as respects the furnishing of information to the Governor, etc."
+      ]
+    },
+    {
+      "tag": "Article_168",
+      "patterns": [
+        "Articles 168",
+        "Article-168"
+      ],
+      "responses": [
+        "Sessions of the State Legislature, prorogation and dissolution.",
+        "Article 168 of the Indian Constitution specifies the sessions of the State Legislature, prorogation, and dissolution."
+      ]
+    },
+    {
+      "tag": "Article_169",
+      "patterns": [
+        "Articles 169",
+        "Article-169"
+      ],
+      "responses": [
+        "Abolition or creation of Legislative Councils in States.",
+        "Article 169 of the Indian Constitution specifies the abolition or creation of Legislative Councils in States."
+      ]
+    },
+    {
+      "tag": "Article_170",
+      "patterns": [
+        "Articles 170",
+        "Article-170"
+      ],
+      "responses": [
+        "Composition of the Legislative Assemblies.",
+        "Article 170 of the Indian Constitution specifies the composition of the Legislative Assemblies."
+      ]
+    },
+    {
+      "tag": "Article_171",
+      "patterns": [
+        "Articles 171",
+        "Article-171"
+      ],
+      "responses": [
+        "Composition of the Legislative Councils.",
+        "Article 171 of the Indian Constitution specifies the composition of the Legislative Councils."
+      ]
+    },
+    {
+      "tag": "Article_172",
+      "patterns": [
+        "Articles 172",
+        "Article-172"
+      ],
+      "responses": [
+        "Duration of State Legislatures.",
+        "Article 172 of the Indian Constitution specifies the duration of State Legislatures."
+      ]
+    },
+    {
+      "tag": "Article_173",
+      "patterns": [
+        "Articles 173",
+        "Article-173"
+      ],
+      "responses": [
+        "Qualification for membership of the State Legislature.",
+        "Article 173 of the Indian Constitution specifies the qualification for membership of the State Legislature."
+      ]
+    },
+    {
+      "tag": "Article_174",
+      "patterns": [
+        "Articles 174",
+        "Article-174"
+      ],
+      "responses": [
+        "Sessions of the State Legislature, prorogation and dissolution.",
+        "Article 174 of the Indian Constitution specifies the sessions of the State Legislature, prorogation, and dissolution."
+      ]
+    },
+    {
+      "tag": "Article_175",
+      "patterns": [
+        "Articles 175",
+        "Article-175"
+      ],
+      "responses": [
+        "Right of Governor to address and send messages to the House or Houses.",
+        "Article 175 of the Indian Constitution specifies the right of the Governor to address and send messages to the House or Houses."
+      ]
+    },
+    {
+      "tag": "Article_176",
+      "patterns": [
+        "Articles 176",
+        "Article-176"
+      ],
+      "responses": [
+        "Special address by the Governor.",
+        "Article 176 of the Indian Constitution specifies the special address by the Governor."
+      ]
+    },
+    {
+      "tag": "Article_177",
+      "patterns": [
+        "Articles 177",
+        "Article-177"
+      ],
+      "responses": [
+        "Rights of Ministers and Advocate-General as respects the Houses.",
+        "Article 177 of the Indian Constitution specifies the rights of Ministers and Advocate-General as respects the Houses."
+      ]
+    },
+    {
+      "tag": "Article_178",
+      "patterns": [
+        "Articles 178",
+        "Article-178"
+      ],
+      "responses": [
+        "Officers of the State Legislature.",
+        "Article 178 of the Indian Constitution specifies the officers of the State Legislature."
+      ]
+    },
+    {
+      "tag": "Article_179",
+      "patterns": [
+        "Articles 179",
+        "Article-179"
+      ],
+      "responses": [
+        "Vacation and resignation of, and removal from, the office of Speaker.",
+        "Article 179 of the Indian Constitution specifies the vacation and resignation of, and removal from, the office of Speaker."
+      ]
+    },
+    {
+      "tag": "Article_180",
+      "patterns": [
+        "Articles 180",
+        "Article-180"
+      ],
+      "responses": [
+        "The Chairman and Deputy Chairman of the Legislative Council.",
+        "Article 180 of the Indian Constitution deals with the Chairman and Deputy Chairman of the Legislative Council."
+      ]
+    },
+    {
+      "tag": "Article_181",
+      "patterns": [
+        "Articles 181",
+        "Article-181"
+      ],
+      "responses": [
+        "Vacation and resignation of, and removal from, the office of Deputy Chairman.",
+        "Article 181 of the Indian Constitution specifies the vacation and resignation of, and removal from, the office of Deputy Chairman."
+      ]
+    },
+    {
+      "tag": "Article_182",
+      "patterns": [
+        "Articles 182",
+        "Article-182"
+      ],
+      "responses": [
+        "The Speaker and Deputy Speaker of the Legislative Assembly.",
+        "Article 182 of the Indian Constitution deals with the Speaker and Deputy Speaker of the Legislative Assembly."
+      ]
+    },
+    {
+      "tag": "Article_183",
+      "patterns": [
+        "Articles 183",
+        "Article-183"
+      ],
+      "responses": [
+        "Vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker.",
+        "Article 183 of the Indian Constitution specifies the vacation and resignation of, and removal from, the offices of Speaker and Deputy Speaker."
+      ]
+    },
+    {
+      "tag": "Article_184",
+      "patterns": [
+        "Articles 184",
+        "Article-184"
+      ],
+      "responses": [
+        "Power of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman.",
+        "Article 184 of the Indian Constitution specifies the power of the Deputy Chairman or other person to perform the duties of the office of, or to act as, Chairman."
+      ]
+    },
+    {
+      "tag": "Article_185",
+      "patterns": [
+        "Articles 185",
+        "Article-185"
+      ],
+      "responses": [
+        "Procedure in the State Legislature with respect to estimates.",
+        "Article 185 of the Indian Constitution specifies the procedure in the State Legislature with respect to estimates."
+      ]
+    },
+    {
+      "tag": "Article_186",
+      "patterns": [
+        "Articles 186",
+        "Article-186"
+      ],
+      "responses": [
+        "Provisions as to introduction and passing of Bills.",
+        "Article 186 of the Indian Constitution contains provisions as to the introduction and passing of Bills."
+      ]
+    },
+    {
+      "tag": "Article_187",
+      "patterns": [
+        "Articles 187",
+        "Article-187"
+      ],
+      "responses": [
+        "Rules of procedure.",
+        "Article 187 of the Indian Constitution specifies the rules of procedure."
+      ]
+    },
+    {
+      "tag": "Article_188",
+      "patterns": [
+        "Articles 188",
+        "Article-188"
+      ],
+      "responses": [
+        "Oath or affirmation by members.",
+        "Article 188 of the Indian Constitution specifies the oath or affirmation to be taken by members."
+      ]
+    },
+    {
+      "tag": "Article_189",
+      "patterns": [
+        "Articles 189",
+        "Article-189"
+      ],
+      "responses": [
+        "Voting in Houses, power of Houses to act notwithstanding vacancies and quorum.",
+        "Article 189 of the Indian Constitution deals with voting in Houses, power of Houses to act notwithstanding vacancies, and quorum."
+      ]
+    },
+    {
+      "tag": "Article_190",
+      "patterns": [
+        "Articles 190",
+        "Article-190"
+      ],
+      "responses": [
+        "Tenure of seats of members.",
+        "Article 190 of the Indian Constitution specifies the tenure of seats of members."
+      ]
+    },
+    {
+      "tag": "Article_191",
+      "patterns": [
+        "Articles 191",
+        "Article-191"
+      ],
+      "responses": [
+        "Disqualifications for membership.",
+        "Article 191 of the Indian Constitution specifies the disqualifications for membership."
+      ]
+    },
+    {
+      "tag": "Article_192",
+      "patterns": [
+        "Articles 192",
+        "Article-192"
+      ],
+      "responses": [
+        "Decision on questions as to disqualifications of members.",
+        "Article 192 of the Indian Constitution deals with the decision on questions as to disqualifications of members."
+      ]
+    },
+    {
+      "tag": "Article_193",
+      "patterns": [
+        "Articles 193",
+        "Article-193"
+      ],
+      "responses": [
+        "Penalty for sitting and voting before making oath or affirmation under article 188 or when not qualified or when disqualified.",
+        "Article 193 of the Indian Constitution specifies the penalty for sitting and voting before making the oath or affirmation under Article 188 or when not qualified or when disqualified."
+      ]
+    },
+    {
+      "tag": "Article_194",
+      "patterns": [
+        "Articles 194",
+        "Article-194"
+      ],
+      "responses": [
+        "Powers, privileges, etc., of the Houses of Legislature and of the members and committees thereof.",
+        "Article 194 of the Indian Constitution specifies the powers, privileges, etc., of the Houses of Legislature and of the members and committees thereof."
+      ]
+    },
+    {
+      "tag": "Article_195",
+      "patterns": [
+        "Articles 195",
+        "Article-195"
+      ],
+      "responses": [
+        "Salaries and allowances of members.",
+        "Article 195 of the Indian Constitution specifies the salaries and allowances of members."
+      ]
+    },
+    {
+      "tag": "Article_196",
+      "patterns": [
+        "Articles 196",
+        "Article-196"
+      ],
+      "responses": [
+        "Provision as to introduction and passing of Bills.",
+        "Article 196 of the Indian Constitution contains provision as to the introduction and passing of Bills."
+      ]
+    },
+    {
+      "tag": "Article_197",
+      "patterns": [
+        "Articles 197",
+        "Article-197"
+      ],
+      "responses": [
+        "Rules of procedure.",
+        "Article 197 of the Indian Constitution specifies the rules of procedure."
+      ]
+    },
+    {
+      "tag": "Article_198",
+      "patterns": [
+        "Articles 198",
+        "Article-198"
+      ],
+      "responses": [
+        "Regulation by law of procedure in the Legislature of the State in relation to financial business.",
+        "Article 198 of the Indian Constitution specifies the regulation by law of procedure in the Legislature of the State in relation to financial business."
+      ]
+    },
+    {
+      "tag": "Article_199",
+      "patterns": [
+        "Articles 199",
+        "Article-199"
+      ],
+      "responses": [
+        "Language to be used in the Legislature.",
+        "Article 199 of the Indian Constitution specifies the language to be used in the Legislature."
+      ]
+    },
+    {
+      "tag": "Article_200",
+      "patterns": [
+        "Articles 200",
+        "Article-200"
+      ],
+      "responses": [
+        "Restriction on discussion in the Legislature.",
+        "Article 200 of the Indian Constitution specifies the restriction on discussion in the Legislature."
+      ]
+    },
+    {
+      "tag": "Article_201",
+      "patterns": [
+        "Articles 201",
+        "Article-201"
+      ],
+      "responses": [
+        "Courts not to inquire into proceedings of the Legislature.",
+        "Article 201 of the Indian Constitution specifies that courts are not to inquire into the proceedings of the Legislature."
+      ]
+    },
+    {
+      "tag": "Article_202",
+      "patterns": [
+        "Articles 202",
+        "Article-202"
+      ],
+      "responses": [
+        "Power of Governor to promulgate Ordinances during recess of Legislature.",
+        "Article 202 of the Indian Constitution specifies the power of the Governor to promulgate Ordinances during the recess of the Legislature."
+      ]
+    },
+    {
+      "tag": "Article_203",
+      "patterns": [
+        "Articles 203",
+        "Article-203"
+      ],
+      "responses": [
+        "Bar to interference by courts in disputes arising out of certain elections.",
+        "Article 203 of the Indian Constitution specifies the bar to interference by courts in disputes arising out of certain elections."
+      ]
+    },
+    {
+      "tag": "Article_204",
+      "patterns": [
+        "Articles 204",
+        "Article-204"
+      ],
+      "responses": [
+        "Provisions as to the offices of Speaker and Deputy Speaker of the Legislative Assembly and the Chairman and Deputy Chairman of the Legislative Council of a State.",
+        "Article 204 of the Indian Constitution contains provisions as to the offices of Speaker and Deputy Speaker of the Legislative Assembly and the Chairman and Deputy Chairman of the Legislative Council of a State."
+      ]
+    },
+    {
+      "tag": "Article_205",
+      "patterns": [
+        "Articles 205",
+        "Article-205"
+      ],
+      "responses": [
+        "Members of Legislative Assembly.",
+        "Article 205 of the Indian Constitution specifies the members of the Legislative Assembly."
+      ]
+    },
+    {
+      "tag": "Article_206",
+      "patterns": [
+        "Articles 206",
+        "Article-206"
+      ],
+      "responses": [
+        "Members of Legislative Council for States having such Councils.",
+        "Article 206 of the Indian Constitution specifies the members of the Legislative Council for States having such Councils."
+      ]
+    },
+    {
+      "tag": "Article_207",
+      "patterns": [
+        "Articles 207",
+        "Article-207"
+      ],
+      "responses": [
+        "Restriction on powers of Legislative Councils with respect to Bills other than Money Bills.",
+        "Article 207 of the Indian Constitution specifies the restriction on powers of Legislative Councils with respect to Bills other than Money Bills."
+      ]
+    },
+    {
+      "tag": "Article_208",
+      "patterns": [
+        "Articles 208",
+        "Article-208"
+      ],
+      "responses": [
+        "Creation of local Legislatures or Councils of Ministers or both for certain Union territories.",
+        "Article 208 of the Indian Constitution specifies the creation of local Legislatures or Councils of Ministers or both for certain Union territories."
+      ]
+    },
+    {
+      "tag": "Article_209",
+      "patterns": [
+        "Articles 209",
+        "Article-209"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 209 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_210",
+      "patterns": [
+        "Articles 210",
+        "Article-210"
+      ],
+      "responses": [
+        "Language to be used in the Legislative Assembly and at its adjourned sittings.",
+        "Article 210 of the Indian Constitution specifies the language to be used in the Legislative Assembly and at its adjourned sittings."
+      ]
+    },
+    {
+      "tag": "Article_211",
+      "patterns": [
+        "Articles 211",
+        "Article-211"
+      ],
+      "responses": [
+        "Restriction on discussion in the Legislative Assembly.",
+        "Article 211 of the Indian Constitution specifies the restriction on discussion in the Legislative Assembly."
+      ]
+    },
+    {
+      "tag": "Article_212",
+      "patterns": [
+        "Articles 212",
+        "Article-212"
+      ],
+      "responses": [
+        "Courts not to inquire into proceedings of the Legislature.",
+        "Article 212 of the Indian Constitution specifies that courts are not to inquire into the proceedings of the Legislature."
+      ]
+    },
+    {
+      "tag": "Article_213",
+      "patterns": [
+        "Articles 213",
+        "Article-213"
+      ],
+      "responses": [
+        "Power of Governor to promulgate Ordinances during recess of Legislature.",
+        "Article 213 of the Indian Constitution specifies the power of the Governor to promulgate Ordinances during the recess of the Legislature."
+      ]
+    },
+    {
+      "tag": "Article_214",
+      "patterns": [
+        "Articles 214",
+        "Article-214"
+      ],
+      "responses": [
+        "High Courts for States.",
+        "Article 214 of the Indian Constitution deals with the High Courts for States."
+      ]
+    },
+    {
+      "tag": "Article_215",
+      "patterns": [
+        "Articles 215",
+        "Article-215"
+      ],
+      "responses": [
+        "High Courts to be courts of record.",
+        "Article 215 of the Indian Constitution specifies that High Courts are to be courts of record."
+      ]
+    },
+    {
+      "tag": "Article_216",
+      "patterns": [
+        "Articles 216",
+        "Article-216"
+      ],
+      "responses": [
+        "Constitution of High Courts.",
+        "Article 216 of the Indian Constitution specifies the constitution of High Courts."
+      ]
+    },
+    {
+      "tag": "Article_217",
+      "patterns": [
+        "Articles 217",
+        "Article-217"
+      ],
+      "responses": [
+        "Appointment and conditions of the office of a Judge of a High Court.",
+        "Article 217 of the Indian Constitution specifies the appointment and conditions of the office of a Judge of a High Court."
+      ]
+    },
+    {
+      "tag": "Article_218",
+      "patterns": [
+        "Articles 218",
+        "Article-218"
+      ],
+      "responses": [
+        "Application of certain provisions relating to Supreme Court to High Courts.",
+        "Article 218 of the Indian Constitution specifies the application of certain provisions relating to the Supreme Court to High Courts."
+      ]
+    },
+    {
+      "tag": "Article_219",
+      "patterns": [
+        "Articles 219",
+        "Article-219"
+      ],
+      "responses": [
+        "Oath or affirmation by Judges of High Courts.",
+        "Article 219 of the Indian Constitution specifies the oath or affirmation to be taken by Judges of High Courts."
+      ]
+    },
+    {
+      "tag": "Article_220",
+      "patterns": [
+        "Articles 220",
+        "Article-220"
+      ],
+      "responses": [
+        "Restriction on practice after being a permanent Judge.",
+        "Article 220 of the Indian Constitution specifies the restriction on practice after being a permanent Judge."
+      ]
+    },
+    {
+      "tag": "Article_221",
+      "patterns": [
+        "Articles 221",
+        "Article-221"
+      ],
+      "responses": [
+        "Salaries, etc., of Judges.",
+        "Article 221 of the Indian Constitution specifies the salaries, etc., of Judges."
+      ]
+    },
+    {
+      "tag": "Article_222",
+      "patterns": [
+        "Articles 222",
+        "Article-222"
+      ],
+      "responses": [
+        "Transfer of a Judge from one High Court to another.",
+        "Article 222 of the Indian Constitution specifies the transfer of a Judge from one High Court to another."
+      ]
+    },
+    {
+      "tag": "Article_223",
+      "patterns": [
+        "Articles 223",
+        "Article-223"
+      ],
+      "responses": [
+        "Appointment of acting Chief Justice.",
+        "Article 223 of the Indian Constitution specifies the appointment of an acting Chief Justice."
+      ]
+    },
+    {
+      "tag": "Article_224",
+      "patterns": [
+        "Articles 224",
+        "Article-224"
+      ],
+      "responses": [
+        "Appointment of additional and acting Judges.",
+        "Article 224 of the Indian Constitution specifies the appointment of additional and acting Judges."
+      ]
+    },
+    {
+      "tag": "Article_225",
+      "patterns": [
+        "Articles 225",
+        "Article-225"
+      ],
+      "responses": [
+        "Jurisdiction of existing High Courts.",
+        "Article 225 of the Indian Constitution specifies the jurisdiction of existing High Courts."
+      ]
+    },
+    {
+      "tag": "Article_226",
+      "patterns": [
+        "Articles 226",
+        "Article-226"
+      ],
+      "responses": [
+        "Power of High Courts to issue certain writs.",
+        "Article 226 of the Indian Constitution specifies the power of High Courts to issue certain writs."
+      ]
+    },
+    {
+      "tag": "Article_227",
+      "patterns": [
+        "Articles 227",
+        "Article-227"
+      ],
+      "responses": [
+        "Power of superintendence over all courts by the High Courts.",
+        "Article 227 of the Indian Constitution specifies the power of superintendence over all courts by the High Courts."
+      ]
+    },
+    {
+      "tag": "Article_228",
+      "patterns": [
+        "Articles 228",
+        "Article-228"
+      ],
+      "responses": [
+        "Transfer of certain cases to High Court.",
+        "Article 228 of the Indian Constitution specifies the transfer of certain cases to the High Court."
+      ]
+    },
+    {
+      "tag": "Article_229",
+      "patterns": [
+        "Articles 229",
+        "Article-229"
+      ],
+      "responses": [
+        "Officers and servants and the expenses of High Courts.",
+        "Article 229 of the Indian Constitution specifies the officers and servants and the expenses of High Courts."
+      ]
+    },
+    {
+      "tag": "Article_230",
+      "patterns": [
+        "Articles 230",
+        "Article-230"
+      ],
+      "responses": [
+        "Extension of jurisdiction of High Courts to Union territories.",
+        "Article 230 of the Indian Constitution specifies the extension of jurisdiction of High Courts to Union territories."
+      ]
+    },
+    {
+      "tag": "Article_231",
+      "patterns": [
+        "Articles 231",
+        "Article-231"
+      ],
+      "responses": [
+        "Establishment of a common High Court for two or more States.",
+        "Article 231 of the Indian Constitution specifies the establishment of a common High Court for two or more States."
+      ]
+    },
+    {
+      "tag": "Article_232",
+      "patterns": [
+        "Articles 232",
+        "Article-232"
+      ],
+      "responses": [
+        "Establishment of a High Court for a Union territory.",
+        "Article 232 of the Indian Constitution specifies the establishment of a High Court for a Union territory."
+      ]
+    },
+    {
+      "tag": "Article_233",
+      "patterns": [
+        "Articles 233",
+        "Article-233"
+      ],
+      "responses": [
+        "Appointment of district Judges.",
+        "Article 233 of the Indian Constitution specifies the appointment of district Judges."
+      ]
+    },
+    {
+      "tag": "Article_234",
+      "patterns": [
+        "Articles 234",
+        "Article-234"
+      ],
+      "responses": [
+        "Recruitment of persons other than district Judges to the judicial service.",
+        "Article 234 of the Indian Constitution specifies the recruitment of persons other than district Judges to the judicial service."
+      ]
+    },
+    {
+      "tag": "Article_235",
+      "patterns": [
+        "Articles 235",
+        "Article-235"
+      ],
+      "responses": [
+        "Control over subordinate courts.",
+        "Article 235 of the Indian Constitution specifies the control over subordinate courts."
+      ]
+    },
+    {
+      "tag": "Article_236",
+      "patterns": [
+        "Articles 236",
+        "Article-236"
+      ],
+      "responses": [
+        "Interpretation.",
+        "Article 236 of the Indian Constitution specifies the interpretation."
+      ]
+    },
+    {
+      "tag": "Article_237",
+      "patterns": [
+        "Articles 237",
+        "Article-237"
+      ],
+      "responses": [
+        "Application of the provisions of this Chapter to certain class or classes of Magistrates.",
+        "Article 237 of the Indian Constitution specifies the application of the provisions of this Chapter to certain class or classes of Magistrates."
+      ]
+    },
+    {
+      "tag": "Article_238",
+      "patterns": [
+        "Articles 238",
+        "Article-238"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 238 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_239",
+      "patterns": [
+        "Articles 239",
+        "Article-239"
+      ],
+      "responses": [
+        "Administration of Union territories.",
+        "Article 239 of the Indian Constitution specifies the administration of Union territories."
+      ]
+    },
+    {
+      "tag": "Article_239A",
+      "patterns": [
+        "Articles 239A",
+        "Article-239A"
+      ],
+      "responses": [
+        "Creation of local Legislatures or Council of Ministers or both for certain Union territories.",
+        "Article 239A of the Indian Constitution specifies the creation of local Legislatures or Council of Ministers or both for certain Union territories."
+      ]
+    },
+    {
+      "tag": "Article_239AA",
+      "patterns": [
+        "Articles 239AA",
+        "Article-239AA"
+      ],
+      "responses": [
+        "Special provisions with respect to Delhi.",
+        "Article 239AA of the Indian Constitution contains special provisions with respect to Delhi."
+      ]
+    },
+    {
+      "tag": "Article_239AB",
+      "patterns": [
+        "Articles 239AB",
+        "Article-239AB"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 239AB of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_239B",
+      "patterns": [
+        "Articles 239B",
+        "Article-239B"
+      ],
+      "responses": [
+        "Power of administrator to promulgate Ordinances during recess of Legislature.",
+        "Article 239B of the Indian Constitution specifies the power of the administrator to promulgate Ordinances during the recess of the Legislature."
+      ]
+    },
+    {
+      "tag": "Article_240",
+      "patterns": [
+        "Articles 240",
+        "Article-240"
+      ],
+      "responses": [
+        "Power of President to make regulations for certain Union territories.",
+        "Article 240 of the Indian Constitution specifies the power of the President to make regulations for certain Union territories."
+      ]
+    },
+    {
+      "tag": "Article_241",
+      "patterns": [
+        "Articles 241",
+        "Article-241"
+      ],
+      "responses": [
+        "High Courts for Union territories.",
+        "Article 241 of the Indian Constitution deals with the High Courts for Union territories."
+      ]
+    },
+    {
+      "tag": "Article_242",
+      "patterns": [
+        "Articles 242",
+        "Article-242"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 242 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_243",
+      "patterns": [
+        "Articles 243",
+        "Article-243"
+      ],
+      "responses": [
+        "Definitions.",
+        "Article 243 of the Indian Constitution specifies the definitions."
+      ]
+    },
+    {
+      "tag": "Article_243A",
+      "patterns": [
+        "Articles 243A",
+        "Article-243A"
+      ],
+      "responses": [
+        "Gram Sabha.",
+        "Article 243A of the Indian Constitution deals with the Gram Sabha."
+      ]
+    },
+    {
+      "tag": "Article_243B",
+      "patterns": [
+        "Articles 243B",
+        "Article-243B"
+      ],
+      "responses": [
+        "Constitution of Panchayats.",
+        "Article 243B of the Indian Constitution specifies the constitution of Panchayats."
+      ]
+    },
+    {
+      "tag": "Article_243C",
+      "patterns": [
+        "Articles 243C",
+        "Article-243C"
+      ],
+      "responses": [
+        "Composition of Panchayats.",
+        "Article 243C of the Indian Constitution specifies the composition of Panchayats."
+      ]
+    },
+    {
+      "tag": "Article_243D",
+      "patterns": [
+        "Articles 243D",
+        "Article-243D"
+      ],
+      "responses": [
+        "Reservation of seats.",
+        "Article 243D of the Indian Constitution specifies the reservation of seats."
+      ]
+    },
+    {
+      "tag": "Article_243E",
+      "patterns": [
+        "Articles 243E",
+        "Article-243E"
+      ],
+      "responses": [
+        "Reservation of seats.",
+        "Article 243E of the Indian Constitution specifies the reservation of seats."
+      ]
+    },
+    {
+      "tag": "Article_243F",
+      "patterns": [
+        "Articles 243F",
+        "Article-243F"
+      ],
+      "responses": [
+        "Disqualifications for membership.",
+        "Article 243F of the Indian Constitution specifies the disqualifications for membership."
+      ]
+    },
+    {
+      "tag": "Article_243G",
+      "patterns": [
+        "Articles 243G",
+        "Article-243G"
+      ],
+      "responses": [
+        "Powers, authority and responsibilities of Panchayats.",
+        "Article 243G of the Indian Constitution specifies the powers, authority, and responsibilities of Panchayats."
+      ]
+    },
+    {
+      "tag": "Article_243H",
+      "patterns": [
+        "Articles 243H",
+        "Article-243H"
+      ],
+      "responses": [
+        "Power to impose taxes by, and Funds of, the Panchayats.",
+        "Article 243H of the Indian Constitution specifies the power to impose taxes by, and Funds of, the Panchayats."
+      ]
+    },
+    {
+      "tag": "Article_243I",
+      "patterns": [
+        "Articles 243I",
+        "Article-243I"
+      ],
+      "responses": [
+        "Constitution of Finance Commissions to review financial position.",
+        "Article 243I of the Indian Constitution specifies the constitution of Finance Commissions to review the financial position."
+      ]
+    },
+    {
+      "tag": "Article_243J",
+      "patterns": [
+        "Articles 243J",
+        "Article-243J"
+      ],
+      "responses": [
+        "Audit of accounts of Panchayats.",
+        "Article 243J of the Indian Constitution specifies the audit of accounts of Panchayats."
+      ]
+    },
+    {
+      "tag": "Article_243K",
+      "patterns": [
+        "Articles 243K",
+        "Article-243K"
+      ],
+      "responses": [
+        "Elections to the Panchayats.",
+        "Article 243K of the Indian Constitution specifies the elections to the Panchayats."
+      ]
+    },
+    {
+      "tag": "Article_243L",
+      "patterns": [
+        "Articles 243L",
+        "Article-243L"
+      ],
+      "responses": [
+        "Application to Union territories.",
+        "Article 243L of the Indian Constitution specifies the application to Union territories."
+      ]
+    },
+    {
+      "tag": "Article_243M",
+      "patterns": [
+        "Articles 243M",
+        "Article-243M"
+      ],
+      "responses": [
+        "Part IX B",
+        "Article 243M of the Indian Constitution deals with Part IX B."
+      ]
+    },
+    {
+      "tag": "Article_244",
+      "patterns": [
+        "Articles 244",
+        "Article-244"
+      ],
+      "responses": [
+        "Administration of scheduled areas and tribal areas.",
+        "Article 244 of the Indian Constitution specifies the administration of scheduled areas and tribal areas."
+      ]
+    },
+    {
+      "tag": "Article_244A",
+      "patterns": [
+        "Articles 244A",
+        "Article-244A"
+      ],
+      "responses": [
+        "Formation of an autonomous State comprising certain tribal areas in Assam and creation of local Legislature or Council of Ministers or both therefor.",
+        "Article 244A of the Indian Constitution specifies the formation of an autonomous State comprising certain tribal areas in Assam and creation of local Legislature or Council of Ministers or both therefor."
+      ]
+    },
+    {
+      "tag": "Article_245",
+      "patterns": [
+        "Articles 245",
+        "Article-245"
+      ],
+      "responses": [
+        "Extent of laws made by Parliament and by the Legislatures of States.",
+        "Article 245 of the Indian Constitution specifies the extent of laws made by Parliament and by the Legislatures of States."
+      ]
+    },
+    {
+      "tag": "Article_246",
+      "patterns": [
+        "Articles 246",
+        "Article-246"
+      ],
+      "responses": [
+        "Subject-matter of laws made by Parliament and by the Legislatures of States.",
+        "Article 246 of the Indian Constitution specifies the subject-matter of laws made by Parliament and by the Legislatures of States."
+      ]
+    },
+    {
+      "tag": "Article_247",
+      "patterns": [
+        "Articles 247",
+        "Article-247"
+      ],
+      "responses": [
+        "Power of Parliament to provide for the establishment of certain additional courts.",
+        "Article 247 of the Indian Constitution specifies the power of Parliament to provide for the establishment of certain additional courts."
+      ]
+    },
+    {
+      "tag": "Article_248",
+      "patterns": [
+        "Articles 248",
+        "Article-248"
+      ],
+      "responses": [
+        "Residuary powers of legislation.",
+        "Article 248 of the Indian Constitution specifies the residuary powers of legislation."
+      ]
+    },
+    {
+      "tag": "Article_249",
+      "patterns": [
+        "Articles 249",
+        "Article-249"
+      ],
+      "responses": [
+        "Power of Parliament to legislate with respect to a matter in the State List in the national interest.",
+        "Article 249 of the Indian Constitution specifies the power of Parliament to legislate with respect to a matter in the State List in the national interest."
+      ]
+    },
+    {
+      "tag": "Article_250",
+      "patterns": [
+        "Articles 250",
+        "Article-250"
+      ],
+      "responses": [
+        "Power of Parliament to legislate with respect to any matter in the State List if a Proclamation of Emergency is in operation.",
+        "Article 250 of the Indian Constitution specifies the power of Parliament to legislate with respect to any matter in the State List if a Proclamation of Emergency is in operation."
+      ]
+    },
+    {
+      "tag": "Article_251",
+      "patterns": [
+        "Articles 251",
+        "Article-251"
+      ],
+      "responses": [
+        "Inconsistency between laws made by Parliament under articles 249 and 250 and laws made by the Legislatures of States.",
+        "Article 251 of the Indian Constitution specifies the inconsistency between laws made by Parliament under articles 249 and 250 and laws made by the Legislatures of States."
+      ]
+    },
+    {
+      "tag": "Article_252",
+      "patterns": [
+        "Articles 252",
+        "Article-252"
+      ],
+      "responses": [
+        "Power of Parliament to legislate for two or more States by consent and adoption of such legislation by any other State.",
+        "Article 252 of the Indian Constitution specifies the power of Parliament to legislate for two or more States by consent and adoption of such legislation by any other State."
+      ]
+    },
+    {
+      "tag": "Article_253",
+      "patterns": [
+        "Articles 253",
+        "Article-253"
+      ],
+      "responses": [
+        "Legislation for giving effect to international agreements.",
+        "Article 253 of the Indian Constitution specifies the legislation for giving effect to international agreements."
+      ]
+    },
+    {
+      "tag": "Article_254",
+      "patterns": [
+        "Articles 254",
+        "Article-254"
+      ],
+      "responses": [
+        "Inconsistency between laws made by Parliament and laws made by the Legislatures of States.",
+        "Article 254 of the Indian Constitution specifies the inconsistency between laws made by Parliament and laws made by the Legislatures of States."
+      ]
+    },
+    {
+      "tag": "Article_255",
+      "patterns": [
+        "Articles 255",
+        "Article-255"
+      ],
+      "responses": [
+        "Requirements as to recommendations and previous sanctions to be regarded as matters of procedure only.",
+        "Article 255 of the Indian Constitution specifies the requirements as to recommendations and previous sanctions to be regarded as matters of procedure only."
+      ]
+    },
+    {
+      "tag": "Article_256",
+      "patterns": [
+        "Articles 256",
+        "Article-256"
+      ],
+      "responses": [
+        "Obligation of States and the Union.",
+        "Article 256 of the Indian Constitution specifies the obligation of States and the Union."
+      ]
+    },
+    {
+      "tag": "Article_257",
+      "patterns": [
+        "Articles 257",
+        "Article-257"
+      ],
+      "responses": [
+        "Control of the Union over States in certain cases.",
+        "Article 257 of the Indian Constitution specifies the control of the Union over States in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_258",
+      "patterns": [
+        "Articles 258",
+        "Article-258"
+      ],
+      "responses": [
+        "Power of the Union to confer powers, etc., on States in certain cases.",
+        "Article 258 of the Indian Constitution specifies the power of the Union to confer powers, etc., on States in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_258A",
+      "patterns": [
+        "Articles 258A",
+        "Article-258A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 258A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_259",
+      "patterns": [
+        "Articles 259",
+        "Article-259"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 259 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_260",
+      "patterns": [
+        "Articles 260",
+        "Article-260"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 260 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_261",
+      "patterns": [
+        "Articles 261",
+        "Article-261"
+      ],
+      "responses": [
+        "Public acts, records and judicial proceedings.",
+        "Article 261 of the Indian Constitution specifies the public acts, records, and judicial proceedings."
+      ]
+    },
+    {
+      "tag": "Article_262",
+      "patterns": [
+        "Articles 262",
+        "Article-262"
+      ],
+      "responses": [
+        "Adjudication of disputes relating to waters of inter-State rivers or river valleys.",
+        "Article 262 of the Indian Constitution specifies the adjudication of disputes relating to waters of inter-State rivers or river valleys."
+      ]
+    },
+    {
+      "tag": "Article_263",
+      "patterns": [
+        "Articles 263",
+        "Article-263"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 263 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_264",
+      "patterns": [
+        "Articles 264",
+        "Article-264"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 264 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_265",
+      "patterns": [
+        "Articles 265",
+        "Article-265"
+      ],
+      "responses": [
+        "Taxes not to be imposed save by authority of law.",
+        "Article 265 of the Indian Constitution specifies that taxes are not to be imposed save by authority of law."
+      ]
+    },
+    {
+      "tag": "Article_266",
+      "patterns": [
+        "Articles 266",
+        "Article-266"
+      ],
+      "responses": [
+        "Consolidated Funds and public accounts of India and of the States.",
+        "Article 266 of the Indian Constitution specifies the Consolidated Funds and public accounts of India and of the States."
+      ]
+    },
+    {
+      "tag": "Article_267",
+      "patterns": [
+        "Articles 267",
+        "Article-267"
+      ],
+      "responses": [
+        "Contingency Fund.",
+        "Article 267 of the Indian Constitution specifies the Contingency Fund."
+      ]
+    },
+    {
+      "tag": "Article_268",
+      "patterns": [
+        "Articles 268",
+        "Article-268"
+      ],
+      "responses": [
+        "Duties levied by the Union but collected and appropriated by the States.",
+        "Article 268 of the Indian Constitution specifies the duties levied by the Union but collected and appropriated by the States."
+      ]
+    },
+    {
+      "tag": "Article_269",
+      "patterns": [
+        "Articles 269",
+        "Article-269"
+      ],
+      "responses": [
+        "Taxes levied and collected by the Union but assigned to the States.",
+        "Article 269 of the Indian Constitution specifies the taxes levied and collected by the Union but assigned to the States."
+      ]
+    },
+    {
+      "tag": "Article_270",
+      "patterns": [
+        "Articles 270",
+        "Article-270"
+      ],
+      "responses": [
+        "Taxes levied and distributed between the Union and the States.",
+        "Article 270 of the Indian Constitution specifies the taxes levied and distributed between the Union and the States."
+      ]
+    },
+    {
+      "tag": "Article_271",
+      "patterns": [
+        "Articles 271",
+        "Article-271"
+      ],
+      "responses": [
+        "Surcharge on certain duties and taxes for purposes of the Union.",
+        "Article 271 of the Indian Constitution specifies the surcharge on certain duties and taxes for purposes of the Union."
+      ]
+    },
+    {
+      "tag": "Article_272",
+      "patterns": [
+        "Articles 272",
+        "Article-272"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 272 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_273",
+      "patterns": [
+        "Articles 273",
+        "Article-273"
+      ],
+      "responses": [
+        "Grants in lieu of export duty on jute and jute products.",
+        "Article 273 of the Indian Constitution specifies the grants in lieu of export duty on jute and jute products."
+      ]
+    },
+    {
+      "tag": "Article_274",
+      "patterns": [
+        "Articles 274",
+        "Article-274"
+      ],
+      "responses": [
+        "Prior recommendation of President required to Bills affecting taxation in which States are interested.",
+        "Article 274 of the Indian Constitution specifies the prior recommendation of the President required to Bills affecting taxation in which States are interested."
+      ]
+    },
+    {
+      "tag": "Article_275",
+      "patterns": [
+        "Articles 275",
+        "Article-275"
+      ],
+      "responses": [
+        "Grants from the Union to certain States.",
+        "Article 275 of the Indian Constitution specifies the grants from the Union to certain States."
+      ]
+    },
+    {
+      "tag": "Article_276",
+      "patterns": [
+        "Articles 276",
+        "Article-276"
+      ],
+      "responses": [
+        "Taxes on professions, trades, callings and employments.",
+        "Article 276 of the Indian Constitution specifies the taxes on professions, trades, callings, and employments."
+      ]
+    },
+    {
+      "tag": "Article_277",
+      "patterns": [
+        "Articles 277",
+        "Article-277"
+      ],
+      "responses": [
+        "Savings.",
+        "Article 277 of the Indian Constitution specifies the savings."
+      ]
+    },
+    {
+      "tag": "Article_278",
+      "patterns": [
+        "Articles 278",
+        "Article-278"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 278 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_279",
+      "patterns": [
+        "Articles 279",
+        "Article-279"
+      ],
+      "responses": [
+        "Calculation of \"net proceeds\", etc.",
+        "Article 279 of the Indian Constitution specifies the calculation of \"net proceeds\", etc."
+      ]
+    },
+    {
+      "tag": "Article_280",
+      "patterns": [
+        "Articles 280",
+        "Article-280"
+      ],
+      "responses": [
+        "Finance Commission.",
+        "Article 280 of the Indian Constitution specifies the Finance Commission."
+      ]
+    },
+    {
+      "tag": "Article_281",
+      "patterns": [
+        "Articles 281",
+        "Article-281"
+      ],
+      "responses": [
+        "Recommendations of the Finance Commission.",
+        "Article 281 of the Indian Constitution specifies the recommendations of the Finance Commission."
+      ]
+    },
+    {
+      "tag": "Article_282",
+      "patterns": [
+        "Articles 282",
+        "Article-282"
+      ],
+      "responses": [
+        "Expenditure defrayable by the Union or a State out of its revenues.",
+        "Article 282 of the Indian Constitution specifies the expenditure defrayable by the Union or a State out of its revenues."
+      ]
+    },
+    {
+      "tag": "Article_283",
+      "patterns": [
+        "Articles 283",
+        "Article-283"
+      ],
+      "responses": [
+        "Custody, etc., of Consolidated Funds, Contingency Funds and moneys credited to the public accounts.",
+        "Article 283 of the Indian Constitution specifies the custody, etc., of Consolidated Funds, Contingency Funds, and moneys credited to the public accounts."
+      ]
+    },
+    {
+      "tag": "Article_284",
+      "patterns": [
+        "Articles 284",
+        "Article-284"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 284 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_285",
+      "patterns": [
+        "Articles 285",
+        "Article-285"
+      ],
+      "responses": [
+        "Exemption of property of the Union from State taxation.",
+        "Article 285 of the Indian Constitution specifies the exemption of property of the Union from State taxation."
+      ]
+    },
+    {
+      "tag": "Article_286",
+      "patterns": [
+        "Articles 286",
+        "Article-286"
+      ],
+      "responses": [
+        "Restrictions as to imposition of tax on the sale or purchase of goods.",
+        "Article 286 of the Indian Constitution specifies the restrictions as to imposition of tax on the sale or purchase of goods."
+      ]
+    },
+    {
+      "tag": "Article_287",
+      "patterns": [
+        "Articles 287",
+        "Article-287"
+      ],
+      "responses": [
+        "Exemption from taxes on electricity.",
+        "Article 287 of the Indian Constitution specifies the exemption from taxes on electricity."
+      ]
+    },
+    {
+      "tag": "Article_288",
+      "patterns": [
+        "Articles 288",
+        "Article-288"
+      ],
+      "responses": [
+        "Exemption from taxation by States in respect of water or electricity in certain cases.",
+        "Article 288 of the Indian Constitution specifies the exemption from taxation by States in respect of water or electricity in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_289",
+      "patterns": [
+        "Articles 289",
+        "Article-289"
+      ],
+      "responses": [
+        "Exemption of property and income of a State from Union taxation.",
+        "Article 289 of the Indian Constitution specifies the exemption of property and income of a State from Union taxation."
+      ]
+    },
+    {
+      "tag": "Article_290",
+      "patterns": [
+        "Articles 290",
+        "Article-290"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 290 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_291",
+      "patterns": [
+        "Articles 291",
+        "Article-291"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 291 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_292",
+      "patterns": [
+        "Articles 292",
+        "Article-292"
+      ],
+      "responses": [
+        "Borrowing by the Government of India.",
+        "Article 292 of the Indian Constitution specifies the borrowing by the Government of India."
+      ]
+    },
+    {
+      "tag": "Article_293",
+      "patterns": [
+        "Articles 293",
+        "Article-293"
+      ],
+      "responses": [
+        "Borrowing by States.",
+        "Article 293 of the Indian Constitution specifies the borrowing by States."
+      ]
+    },
+    {
+      "tag": "Article_294",
+      "patterns": [
+        "Articles 294",
+        "Article-294"
+      ],
+      "responses": [
+        "Succession to property, assets, rights, liabilities and obligations in certain cases.",
+        "Article 294 of the Indian Constitution specifies the succession to property, assets, rights, liabilities, and obligations in certain cases."
+      ]
+    },
+    {
+      "tag": "Article_295",
+      "patterns": [
+        "Articles 295",
+        "Article-295"
+      ],
+      "responses": [
+        "Succession to property, assets, rights, liabilities and obligations in other cases.",
+        "Article 295 of the Indian Constitution specifies the succession to property, assets, rights, liabilities, and obligations in other cases."
+      ]
+    },
+    {
+      "tag": "Article_296",
+      "patterns": [
+        "Articles 296",
+        "Article-296"
+      ],
+      "responses": [
+        "Property accruing by escheat or lapse or as bona vacantia.",
+        "Article 296 of the Indian Constitution specifies the property accruing by escheat or lapse or as bona vacantia."
+      ]
+    },
+    {
+      "tag": "Article_297",
+      "patterns": [
+        "Articles 297",
+        "Article-297"
+      ],
+      "responses": [
+        "Things of value within territorial waters or continental shelf and resources of the exclusive economic zone to vest in the Union.",
+        "Article 297 of the Indian Constitution specifies that things of value within territorial waters or continental shelf and resources of the exclusive economic zone to vest in the Union."
+      ]
+    },
+    {
+      "tag": "Article_298",
+      "patterns": [
+        "Articles 298",
+        "Article-298"
+      ],
+      "responses": [
+        "Power to carry on trade, etc.",
+        "Article 298 of the Indian Constitution specifies the power to carry on trade, etc."
+      ]
+    },
+    {
+      "tag": "Article_299",
+      "patterns": [
+        "Articles 299",
+        "Article-299"
+      ],
+      "responses": [
+        "Contracts.",
+        "Article 299 of the Indian Constitution specifies the contracts."
+      ]
+    },
+    {
+      "tag": "Article_300",
+      "patterns": [
+        "Articles 300",
+        "Article-300"
+      ],
+      "responses": [
+        "Suits and proceedings.",
+        "Article 300 of the Indian Constitution specifies the suits and proceedings."
+      ]
+    },
+    {
+      "tag": "Article_301",
+      "patterns": [
+        "Articles 301",
+        "Article-301"
+      ],
+      "responses": [
+        "Freedom of trade, commerce and intercourse.",
+        "Article 301 of the Indian Constitution specifies the freedom of trade, commerce, and intercourse."
+      ]
+    },
+    {
+      "tag": "Article_302",
+      "patterns": [
+        "Articles 302",
+        "Article-302"
+      ],
+      "responses": [
+        "Power of Parliament to impose restrictions on trade, commerce and intercourse.",
+        "Article 302 of the Indian Constitution specifies the power of Parliament to impose restrictions on trade, commerce, and intercourse."
+      ]
+    },
+    {
+      "tag": "Article_303",
+      "patterns": [
+        "Articles 303",
+        "Article-303"
+      ],
+      "responses": [
+        "Restrictions on the legislative powers of the Union and of the States with regard to trade and commerce.",
+        "Article 303 of the Indian Constitution specifies the restrictions on the legislative powers of the Union and of the States with regard to trade and commerce."
+      ]
+    },
+    {
+      "tag": "Article_304",
+      "patterns": [
+        "Articles 304",
+        "Article-304"
+      ],
+      "responses": [
+        "Restrictions on trade, commerce and intercourse among States.",
+        "Article 304 of the Indian Constitution specifies the restrictions on trade, commerce, and intercourse among States."
+      ]
+    },
+    {
+      "tag": "Article_305",
+      "patterns": [
+        "Articles 305",
+        "Article-305"
+      ],
+      "responses": [
+        "Saving of existing laws and laws providing for State monopolies.",
+        "Article 305 of the Indian Constitution specifies the saving of existing laws and laws providing for State monopolies."
+      ]
+    },
+    {
+      "tag": "Article_306",
+      "patterns": [
+        "Articles 306",
+        "Article-306"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 306 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_307",
+      "patterns": [
+        "Articles 307",
+        "Article-307"
+      ],
+      "responses": [
+        "Appointment of authority for carrying out the purposes of articles 301 to 304.",
+        "Article 307 of the Indian Constitution specifies the appointment of authority for carrying out the purposes of articles 301 to 304."
+      ]
+    },
+    {
+      "tag": "Article_308",
+      "patterns": [
+        "Articles 308",
+        "Article-308"
+      ],
+      "responses": [
+        "Interpretation.",
+        "Article 308 of the Indian Constitution specifies the interpretation."
+      ]
+    },
+    {
+      "tag": "Article_309",
+      "patterns": [
+        "Articles 309",
+        "Article-309"
+      ],
+      "responses": [
+        "Recruitment and conditions of service of persons serving the Union or a State.",
+        "Article 309 of the Indian Constitution specifies the recruitment and conditions of service of persons serving the Union or a State."
+      ]
+    },
+    {
+      "tag": "Article_310",
+      "patterns": [
+        "Articles 310",
+        "Article-310"
+      ],
+      "responses": [
+        "Tenure of office of persons serving the Union or a State.",
+        "Article 310 of the Indian Constitution specifies the tenure of office of persons serving the Union or a State."
+      ]
+    },
+    {
+      "tag": "Article_311",
+      "patterns": [
+        "Articles 311",
+        "Article-311"
+      ],
+      "responses": [
+        "Dismissal, removal or reduction in rank of persons employed in civil capacities under the Union or a State.",
+        "Article 311 of the Indian Constitution specifies the dismissal, removal, or reduction in rank of persons employed in civil capacities under the Union or a State."
+      ]
+    },
+    {
+      "tag": "Article_312",
+      "patterns": [
+        "Articles 312",
+        "Article-312"
+      ],
+      "responses": [
+        "All-India services.",
+        "Article 312 of the Indian Constitution specifies the All-India services."
+      ]
+    },
+    {
+      "tag": "Article_313",
+      "patterns": [
+        "Articles 313",
+        "Article-313"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 313 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_314",
+      "patterns": [
+        "Articles 314",
+        "Article-314"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 314 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_315",
+      "patterns": [
+        "Articles 315",
+        "Article-315"
+      ],
+      "responses": [
+        "Public Service Commissions for the Union and for the States.",
+        "Article 315 of the Indian Constitution specifies the Public Service Commissions for the Union and for the States."
+      ]
+    },
+    {
+      "tag": "Article_316",
+      "patterns": [
+        "Articles 316",
+        "Article-316"
+      ],
+      "responses": [
+        "Appointment and term of office of members.",
+        "Article 316 of the Indian Constitution specifies the appointment and term of office of members."
+      ]
+    },
+    {
+      "tag": "Article_317",
+      "patterns": [
+        "Articles 317",
+        "Article-317"
+      ],
+      "responses": [
+        "Removal and suspension of a member of a Public Service Commission.",
+        "Article 317 of the Indian Constitution specifies the removal and suspension of a member of a Public Service Commission."
+      ]
+    },
+    {
+      "tag": "Article_318",
+      "patterns": [
+        "Articles 318",
+        "Article-318"
+      ],
+      "responses": [
+        "Power to make regulations as to conditions of service of members and staff of the Commission.",
+        "Article 318 of the Indian Constitution specifies the power to make regulations as to conditions of service of members and staff of the Commission."
+      ]
+    },
+    {
+      "tag": "Article_319",
+      "patterns": [
+        "Articles 319",
+        "Article-319"
+      ],
+      "responses": [
+        "Prohibition as to the holding of offices by members of Commission on ceasing to be such members.",
+        "Article 319 of the Indian Constitution specifies the prohibition as to the holding of offices by members of Commission on ceasing to be such members."
+      ]
+    },
+    {
+      "tag": "Article_320",
+      "patterns": [
+        "Articles 320",
+        "Article-320"
+      ],
+      "responses": [
+        "Functions of Public Service Commissions.",
+        "Article 320 of the Indian Constitution specifies the functions of Public Service Commissions."
+      ]
+    },
+    {
+      "tag": "Article_321",
+      "patterns": [
+        "Articles 321",
+        "Article-321"
+      ],
+      "responses": [
+        "Power to extend functions of Public Service Commissions.",
+        "Article 321 of the Indian Constitution specifies the power to extend functions of Public Service Commissions."
+      ]
+    },
+    {
+      "tag": "Article_322",
+      "patterns": [
+        "Articles 322",
+        "Article-322"
+      ],
+      "responses": [
+        "Expenses of Public Service Commissions.",
+        "Article 322 of the Indian Constitution specifies the expenses of Public Service Commissions."
+      ]
+    },
+    {
+      "tag": "Article_323",
+      "patterns": [
+        "Articles 323",
+        "Article-323"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 323 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_323A",
+      "patterns": [
+        "Articles 323A",
+        "Article-323A"
+      ],
+      "responses": [
+        "Administrative tribunals.",
+        "Article 323A of the Indian Constitution specifies the administrative tribunals."
+      ]
+    },
+    {
+      "tag": "Article_323B",
+      "patterns": [
+        "Articles 323B",
+        "Article-323B"
+      ],
+      "responses": [
+        "Tribunals for other matters.",
+        "Article 323B of the Indian Constitution specifies the tribunals for other matters."
+      ]
+    },
+    {
+      "tag": "Article_324",
+      "patterns": [
+        "Articles 324",
+        "Article-324"
+      ],
+      "responses": [
+        "Superintendence, direction and control of elections to be vested in an Election Commission.",
+        "Article 324 of the Indian Constitution specifies the superintendence, direction, and control of elections to be vested in an Election Commission."
+      ]
+    },
+    {
+      "tag": "Article_325",
+      "patterns": [
+        "Articles 325",
+        "Article-325"
+      ],
+      "responses": [
+        "No person to be ineligible for inclusion in, or to claim to be included in a special, electoral roll on grounds of religion, race, caste or sex.",
+        "Article 325 of the Indian Constitution specifies that no person is to be ineligible for inclusion in, or to claim to be included in a special, electoral roll on grounds of religion, race, caste, or sex."
+      ]
+    },
+    {
+      "tag": "Article_326",
+      "patterns": [
+        "Articles 326",
+        "Article-326"
+      ],
+      "responses": [
+        "Elections to the House of the People and to the Legislative Assemblies of States to be on the basis of adult suffrage.",
+        "Article 326 of the Indian Constitution specifies that elections to the House of the People and to the Legislative Assemblies of States are to be on the basis of adult suffrage."
+      ]
+    },
+    {
+      "tag": "Article_327",
+      "patterns": [
+        "Articles 327",
+        "Article-327"
+      ],
+      "responses": [
+        "Power of Parliament to make provision with respect to elections to Legislatures.",
+        "Article 327 of the Indian Constitution specifies the power of Parliament to make provision with respect to elections to Legislatures."
+      ]
+    },
+    {
+      "tag": "Article_328",
+      "patterns": [
+        "Articles 328",
+        "Article-328"
+      ],
+      "responses": [
+        "Power of Legislature of a State to make provision with respect to elections to such Legislature.",
+        "Article 328 of the Indian Constitution specifies the power of the Legislature of a State to make provision with respect to elections to such Legislature."
+      ]
+    },
+    {
+      "tag": "Article_329",
+      "patterns": [
+        "Articles 329",
+        "Article-329"
+      ],
+      "responses": [
+        "Bar to interference by courts in electoral matters.",
+        "Article 329 of the Indian Constitution specifies the bar to interference by courts in electoral matters."
+      ]
+    },
+    {
+      "tag": "Article_329A",
+      "patterns": [
+        "Articles 329A",
+        "Article-329A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 329A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_330",
+      "patterns": [
+        "Articles 330",
+        "Article-330"
+      ],
+      "responses": [
+        "Reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People.",
+        "Article 330 of the Indian Constitution specifies the reservation of seats for Scheduled Castes and Scheduled Tribes in the House of the People."
+      ]
+    },
+    {
+      "tag": "Article_331",
+      "patterns": [
+        "Articles 331",
+        "Article-331"
+      ],
+      "responses": [
+        "Representation of the Anglo-Indian community in the House of the People.",
+        "Article 331 of the Indian Constitution specifies the representation of the Anglo-Indian community in the House of the People."
+      ]
+    },
+    {
+      "tag": "Article_332",
+      "patterns": [
+        "Articles 332",
+        "Article-332"
+      ],
+      "responses": [
+        "Reservation of seats for Scheduled Castes and Scheduled Tribes in the Legislative Assemblies of the States.",
+        "Article 332 of the Indian Constitution specifies the reservation of seats for Scheduled Castes and Scheduled Tribes in the Legislative Assemblies of the States."
+      ]
+    },
+    {
+      "tag": "Article_333",
+      "patterns": [
+        "Articles 333",
+        "Article-333"
+      ],
+      "responses": [
+        "Representation of the Anglo-Indian community in the Legislative Assemblies of the States.",
+        "Article 333 of the Indian Constitution specifies the representation of the Anglo-Indian community in the Legislative Assemblies of the States."
+      ]
+    },
+    {
+      "tag": "Article_334",
+      "patterns": [
+        "Articles 334",
+        "Article-334"
+      ],
+      "responses": [
+        "Reservation of seats and special representation to cease after sixty years.",
+        "Article 334 of the Indian Constitution specifies that reservation of seats and special representation to cease after sixty years."
+      ]
+    },
+    {
+      "tag": "Article_335",
+      "patterns": [
+        "Articles 335",
+        "Article-335"
+      ],
+      "responses": [
+        "Claims of Scheduled Castes and Scheduled Tribes to services and posts.",
+        "Article 335 of the Indian Constitution specifies the claims of Scheduled Castes and Scheduled Tribes to services and posts."
+      ]
+    },
+    {
+      "tag": "Article_336",
+      "patterns": [
+        "Articles 336",
+        "Article-336"
+      ],
+      "responses": [
+        "Special provision for Anglo-Indian community in certain services.",
+        "Article 336 of the Indian Constitution specifies the special provision for the Anglo-Indian community in certain services."
+      ]
+    },
+    {
+      "tag": "Article_337",
+      "patterns": [
+        "Articles 337",
+        "Article-337"
+      ],
+      "responses": [
+        "Special provision with respect to educational grants for the benefit of Anglo-Indian community.",
+        "Article 337 of the Indian Constitution specifies the special provision with respect to educational grants for the benefit of the Anglo-Indian community."
+      ]
+    },
+    {
+      "tag": "Article_338",
+      "patterns": [
+        "Articles 338",
+        "Article-338"
+      ],
+      "responses": [
+        "National Commission for Scheduled Castes.",
+        "Article 338 of the Indian Constitution specifies the National Commission for Scheduled Castes."
+      ]
+    },
+    {
+      "tag": "Article_338A",
+      "patterns": [
+        "Articles 338A",
+        "Article-338A"
+      ],
+      "responses": [
+        "National Commission for Scheduled Tribes.",
+        "Article 338A of the Indian Constitution specifies the National Commission for Scheduled Tribes."
+      ]
+    },
+    {
+      "tag": "Article_339",
+      "patterns": [
+        "Articles 339",
+        "Article-339"
+      ],
+      "responses": [
+        "Control of the Union over the administration of Scheduled Areas and the welfare of Scheduled Tribes.",
+        "Article 339 of the Indian Constitution specifies the control of the Union over the administration of Scheduled Areas and the welfare of Scheduled Tribes."
+      ]
+    },
+    {
+      "tag": "Article_340",
+      "patterns": [
+        "Articles 340",
+        "Article-340"
+      ],
+      "responses": [
+        "Appointment of a Commission to investigate the conditions of backward classes.",
+        "Article 340 of the Indian Constitution specifies the appointment of a Commission to investigate the conditions of backward classes."
+      ]
+    },
+    {
+      "tag": "Article_341",
+      "patterns": [
+        "Articles 341",
+        "Article-341"
+      ],
+      "responses": [
+        "Scheduled Castes.",
+        "Article 341 of the Indian Constitution specifies the Scheduled Castes."
+      ]
+    },
+    {
+      "tag": "Article_342",
+      "patterns": [
+        "Articles 342",
+        "Article-342"
+      ],
+      "responses": [
+        "Scheduled Tribes.",
+        "Article 342 of the Indian Constitution specifies the Scheduled Tribes."
+      ]
+    },
+    {
+      "tag": "Article_342A",
+      "patterns": [
+        "Articles 342A",
+        "Article-342A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 342A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_343",
+      "patterns": [
+        "Articles 343",
+        "Article-343"
+      ],
+      "responses": [
+        "Official language of the Union.",
+        "Article 343 of the Indian Constitution specifies the official language of the Union."
+      ]
+    },
+    {
+      "tag": "Article_344",
+      "patterns": [
+        "Articles 344",
+        "Article-344"
+      ],
+      "responses": [
+        "Commission and Committee of Parliament on official language.",
+        "Article 344 of the Indian Constitution specifies the Commission and Committee of Parliament on official language."
+      ]
+    },
+    {
+      "tag": "Article_345",
+      "patterns": [
+        "Articles 345",
+        "Article-345"
+      ],
+      "responses": [
+        "Official language or languages of a State.",
+        "Article 345 of the Indian Constitution specifies the official language or languages of a State."
+      ]
+    },
+    {
+      "tag": "Article_346",
+      "patterns": [
+        "Articles 346",
+        "Article-346"
+      ],
+      "responses": [
+        "Official language for communication between one State and another or between a State and the Union.",
+        "Article 346 of the Indian Constitution specifies the official language for communication between one State and another or between a State and the Union."
+      ]
+    },
+    {
+      "tag": "Article_347",
+      "patterns": [
+        "Articles 347",
+        "Article-347"
+      ],
+      "responses": [
+        "Special provision relating to language spoken by a section of the population of a State.",
+        "Article 347 of the Indian Constitution specifies the special provision relating to language spoken by a section of the population of a State."
+      ]
+    },
+    {
+      "tag": "Article_348",
+      "patterns": [
+        "Articles 348",
+        "Article-348"
+      ],
+      "responses": [
+        "Language to be used in the Supreme Court and in the High Courts and for Acts, Bills, etc.",
+        "Article 348 of the Indian Constitution specifies the language to be used in the Supreme Court and in the High Courts and for Acts, Bills, etc."
+      ]
+    },
+    {
+      "tag": "Article_349",
+      "patterns": [
+        "Articles 349",
+        "Article-349"
+      ],
+      "responses": [
+        "Special provision for the use of Hindi language.",
+        "Article 349 of the Indian Constitution specifies the special provision for the use of the Hindi language."
+      ]
+    },
+    {
+      "tag": "Article_350",
+      "patterns": [
+        "Articles 350",
+        "Article-350"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 350 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_350A",
+      "patterns": [
+        "Articles 350A",
+        "Article-350A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 350A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_350B",
+      "patterns": [
+        "Articles 350B",
+        "Article-350B"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 350B of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_351",
+      "patterns": [
+        "Articles 351",
+        "Article-351"
+      ],
+      "responses": [
+        "Directive for development of the Hindi language.",
+        "Article 351 of the Indian Constitution specifies the directive for the development of the Hindi language."
+      ]
+    },
+    {
+      "tag": "Article_352",
+      "patterns": [
+        "Articles 352",
+        "Article-352"
+      ],
+      "responses": [
+        "Proclamation of Emergency.",
+        "Article 352 of the Indian Constitution specifies the proclamation of Emergency."
+      ]
+    },
+    {
+      "tag": "Article_353",
+      "patterns": [
+        "Articles 353",
+        "Article-353"
+      ],
+      "responses": [
+        "Effect of Proclamation of Emergency.",
+        "Article 353 of the Indian Constitution specifies the effect of Proclamation of Emergency."
+      ]
+    },
+    {
+      "tag": "Article_354",
+      "patterns": [
+        "Articles 354",
+        "Article-354"
+      ],
+      "responses": [
+        "Application of provisions relating to distribution of revenues while a Proclamation of Emergency is in operation.",
+        "Article 354 of the Indian Constitution specifies the application of provisions relating to distribution of revenues while a Proclamation of Emergency is in operation."
+      ]
+    },
+    {
+      "tag": "Article_355",
+      "patterns": [
+        "Articles 355",
+        "Article-355"
+      ],
+      "responses": [
+        "Duty of the Union to protect States against external aggression and internal disturbance.",
+        "Article 355 of the Indian Constitution specifies the duty of the Union to protect States against external aggression and internal disturbance."
+      ]
+    },
+    {
+      "tag": "Article_356",
+      "patterns": [
+        "Articles 356",
+        "Article-356"
+      ],
+      "responses": [
+        "Provisions in case of failure of constitutional machinery in States.",
+        "Article 356 of the Indian Constitution specifies the provisions in case of failure of constitutional machinery in States."
+      ]
+    },
+    {
+      "tag": "Article_357",
+      "patterns": [
+        "Articles 357",
+        "Article-357"
+      ],
+      "responses": [
+        "Exercise of legislative powers under Proclamation issued under article 356.",
+        "Article 357 of the Indian Constitution specifies the exercise of legislative powers under Proclamation issued under article 356."
+      ]
+    },
+    {
+      "tag": "Article_358",
+      "patterns": [
+        "Articles 358",
+        "Article-358"
+      ],
+      "responses": [
+        "Suspension of provisions of article 19 during emergencies.",
+        "Article 358 of the Indian Constitution specifies the suspension of provisions of article 19 during emergencies."
+      ]
+    },
+    {
+      "tag": "Article_359",
+      "patterns": [
+        "Articles 359",
+        "Article-359"
+      ],
+      "responses": [
+        "Suspension of the enforcement of the rights conferred by Part III during emergencies.",
+        "Article 359 of the Indian Constitution specifies the suspension of the enforcement of the rights conferred by Part III during emergencies."
+      ]
+    },
+    {
+      "tag": "Article_359A",
+      "patterns": [
+        "Articles 359A",
+        "Article-359A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 359A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_360",
+      "patterns": [
+        "Articles 360",
+        "Article-360"
+      ],
+      "responses": [
+        "Provisions as to financial emergency.",
+        "Article 360 of the Indian Constitution specifies the provisions as to financial emergency."
+      ]
+    },
+    {
+      "tag": "Article_361",
+      "patterns": [
+        "Articles 361",
+        "Article-361"
+      ],
+      "responses": [
+        "Protection of President and Governors and Rajpramukhs.",
+        "Article 361 of the Indian Constitution specifies the protection of President and Governors and Rajpramukhs."
+      ]
+    },
+    {
+      "tag": "Article_362",
+      "patterns": [
+        "Articles 362",
+        "Article-362"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 362 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_363",
+      "patterns": [
+        "Articles 363",
+        "Article-363"
+      ],
+      "responses": [
+        "Bar to interference by courts in disputes arising out of certain treaties, agreements, etc.",
+        "Article 363 of the Indian Constitution specifies the bar to interference by courts in disputes arising out of certain treaties, agreements, etc."
+      ]
+    },
+    {
+      "tag": "Article_363A",
+      "patterns": [
+        "Articles 363A",
+        "Article-363A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 363A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_364",
+      "patterns": [
+        "Articles 364",
+        "Article-364"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 364 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_365",
+      "patterns": [
+        "Articles 365",
+        "Article-365"
+      ],
+      "responses": [
+        "Effect of failure to comply with, or to give effect to, directions given by the Union.",
+        "Article 365 of the Indian Constitution specifies the effect of failure to comply with, or to give effect to, directions given by the Union."
+      ]
+    },
+    {
+      "tag": "Article_366",
+      "patterns": [
+        "Articles 366",
+        "Article-366"
+      ],
+      "responses": [
+        "Definitions.",
+        "Article 366 of the Indian Constitution specifies the definitions."
+      ]
+    },
+    {
+      "tag": "Article_367",
+      "patterns": [
+        "Articles 367",
+        "Article-367"
+      ],
+      "responses": [
+        "Interpretation.",
+        "Article 367 of the Indian Constitution specifies the interpretation."
+      ]
+    },
+    {
+      "tag": "Article_368",
+      "patterns": [
+        "Articles 368",
+        "Article-368"
+      ],
+      "responses": [
+        "Power of Parliament to amend the Constitution and procedure therefor.",
+        "Article 368 of the Indian Constitution specifies the power of Parliament to amend the Constitution and the procedure therefor."
+      ]
+    },
+    {
+      "tag": "Article_369",
+      "patterns": [
+        "Articles 369",
+        "Article-369"
+      ],
+      "responses": [
+        "Temporary power to Parliament to make laws with respect to certain matters in the State List as if they were matters in the Concurrent List.",
+        "Article 369 of the Indian Constitution specifies the temporary power to Parliament to make laws with respect to certain matters in the State List as if they were matters in the Concurrent List."
+      ]
+    },
+    {
+      "tag": "Article_370",
+      "patterns": [
+        "Articles 370",
+        "Article-370"
+      ],
+      "responses": [
+        "Temporary provisions with respect to the State of Jammu and Kashmir.",
+        "Article 370 of the Indian Constitution specifies the temporary provisions with respect to the State of Jammu and Kashmir."
+      ]
+    },
+    {
+      "tag": "Article_371",
+      "patterns": [
+        "Articles 371",
+        "Article-371"
+      ],
+      "responses": [
+        "Special provisions with respect to States of Maharashtra and Gujarat.",
+        "Article 371 of the Indian Constitution specifies the special provisions with respect to the States of Maharashtra and Gujarat."
+      ]
+    },
+    {
+      "tag": "Article_371A",
+      "patterns": [
+        "Articles 371A",
+        "Article-371A"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Nagaland.",
+        "Article 371A of the Indian Constitution specifies the special provision with respect to the State of Nagaland."
+      ]
+    },
+    {
+      "tag": "Article_371B",
+      "patterns": [
+        "Articles 371B",
+        "Article-371B"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Assam.",
+        "Article 371B of the Indian Constitution specifies the special provision with respect to the State of Assam."
+      ]
+    },
+    {
+      "tag": "Article_371C",
+      "patterns": [
+        "Articles 371C",
+        "Article-371C"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Manipur.",
+        "Article 371C of the Indian Constitution specifies the special provision with respect to the State of Manipur."
+      ]
+    },
+    {
+      "tag": "Article_371D",
+      "patterns": [
+        "Articles 371D",
+        "Article-371D"
+      ],
+      "responses": [
+        "Special provisions with respect to the State of Andhra Pradesh.",
+        "Article 371D of the Indian Constitution specifies the special provisions with respect to the State of Andhra Pradesh."
+      ]
+    },
+    {
+      "tag": "Article_371E",
+      "patterns": [
+        "Articles 371E",
+        "Article-371E"
+      ],
+      "responses": [
+        "Establishment of Central University in Andhra Pradesh.",
+        "Article 371E of the Indian Constitution specifies the establishment of a Central University in Andhra Pradesh."
+      ]
+    },
+    {
+      "tag": "Article_371F",
+      "patterns": [
+        "Articles 371F",
+        "Article-371F"
+      ],
+      "responses": [
+        "Special provisions with respect to the State of Sikkim.",
+        "Article 371F of the Indian Constitution specifies the special provisions with respect to the State of Sikkim."
+      ]
+    },
+    {
+      "tag": "Article_371G",
+      "patterns": [
+        "Articles 371G",
+        "Article-371G"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Mizoram.",
+        "Article 371G of the Indian Constitution specifies the special provision with respect to the State of Mizoram."
+      ]
+    },
+    {
+      "tag": "Article_371H",
+      "patterns": [
+        "Articles 371H",
+        "Article-371H"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Arunachal Pradesh.",
+        "Article 371H of the Indian Constitution specifies the special provision with respect to the State of Arunachal Pradesh."
+      ]
+    },
+    {
+      "tag": "Article_371I",
+      "patterns": [
+        "Articles 371I",
+        "Article-371I"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Goa.",
+        "Article 371I of the Indian Constitution specifies the special provision with respect to the State of Goa."
+      ]
+    },
+    {
+      "tag": "Article_371J",
+      "patterns": [
+        "Articles 371J",
+        "Article-371J"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Karnataka.",
+        "Article 371J of the Indian Constitution specifies the special provision with respect to the State of Karnataka."
+      ]
+    },
+    {
+      "tag": "Article_371K",
+      "patterns": [
+        "Articles 371K",
+        "Article-371K"
+      ],
+      "responses": [
+        "Special provision with respect to the State of Andhra Pradesh and the State of Telangana.",
+        "Article 371K of the Indian Constitution specifies the special provision with respect to the State of Andhra Pradesh and the State of Telangana."
+      ]
+    },
+    {
+      "tag": "Article_372",
+      "patterns": [
+        "Articles 372",
+        "Article-372"
+      ],
+      "responses": [
+        "Continuance in force of existing laws and their adaptation.",
+        "Article 372 of the Indian Constitution specifies the continuance in force of existing laws and their adaptation."
+      ]
+    },
+    {
+      "tag": "Article_372A",
+      "patterns": [
+        "Articles 372A",
+        "Article-372A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 372A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_373",
+      "patterns": [
+        "Articles 373",
+        "Article-373"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 373 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_374",
+      "patterns": [
+        "Articles 374",
+        "Article-374"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 374 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_375",
+      "patterns": [
+        "Articles 375",
+        "Article-375"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 375 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_376",
+      "patterns": [
+        "Articles 376",
+        "Article-376"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 376 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_377",
+      "patterns": [
+        "Articles 377",
+        "Article-377"
+      ],
+      "responses": [
+        "Provisions as to Judges of the Federal Court and proceedings pending in the Federal Court or before His Majesty in Council.",
+        "Article 377 of the Indian Constitution specifies the provisions as to Judges of the Federal Court and proceedings pending in the Federal Court or before His Majesty in Council."
+      ]
+    },
+    {
+      "tag": "Article_378",
+      "patterns": [
+        "Articles 378",
+        "Article-378"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 378 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_378A",
+      "patterns": [
+        "Articles 378A",
+        "Article-378A"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 378A of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_379",
+      "patterns": [
+        "Articles 379",
+        "Article-379"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 379 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_380",
+      "patterns": [
+        "Articles 380",
+        "Article-380"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 380 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_381",
+      "patterns": [
+        "Articles 381",
+        "Article-381"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 381 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_382",
+      "patterns": [
+        "Articles 382",
+        "Article-382"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 382 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_383",
+      "patterns": [
+        "Articles 383",
+        "Article-383"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 383 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_384",
+      "patterns": [
+        "Articles 384",
+        "Article-384"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 384 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_385",
+      "patterns": [
+        "Articles 385",
+        "Article-385"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 385 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_386",
+      "patterns": [
+        "Articles 386",
+        "Article-386"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 386 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_387",
+      "patterns": [
+        "Articles 387",
+        "Article-387"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 387 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_388",
+      "patterns": [
+        "Articles 388",
+        "Article-388"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 388 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_389",
+      "patterns": [
+        "Articles 389",
+        "Article-389"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 389 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_390",
+      "patterns": [
+        "Articles 390",
+        "Article-390"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 390 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_391",
+      "patterns": [
+        "Articles 391",
+        "Article-391"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 391 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_392",
+      "patterns": [
+        "Articles 392",
+        "Article-392"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 392 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_393",
+      "patterns": [
+        "Articles 393",
+        "Article-393"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 393 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_394",
+      "patterns": [
+        "Articles 394",
+        "Article-394"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 394 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "Article_395",
+      "patterns": [
+        "Articles 395",
+        "Article-395"
+      ],
+      "responses": [
+        "[Repealed.]",
+        "Article 395 of the Indian Constitution has been repealed."
+      ]
+    },
+    {
+      "tag": "UNKNOWN",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase or provide more context?"
+      ]
+    }
+  ]
+}
